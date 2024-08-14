@@ -1,1 +1,5 @@
+# "book" é a pasta que armazena as builds temporárias do mdbook  
 book
+
+# Ignora o executável do mdbook
+mdbook.exe
