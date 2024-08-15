@@ -1,5 +1,8 @@
-# "book" é a pasta que armazena as builds temporárias do mdbook  
+# Armazena as builds temporárias do mdbook  
 book
 
-# Ignora o executável do mdbook
+# Contém os arquivos de tema originais do mdbook para referência
+native-theme
+
+# Executável do mdbook no Ruindows :p
 mdbook.exe

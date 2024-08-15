@@ -1,5 +1,7 @@
 [book]
-authors = []
-language = "en"
+title = "GSuite - Toolbox"
+authors = ["Daniele - @DaniFluffyCat"]
+description = "Toolbox com fórmulas customizadas e miniscripts úteis na GSuite e Apps Script"
+language = "pt"
 multilingual = false
 src = "src"
