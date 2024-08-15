@@ -1,0 +1,43 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "onFolderOpen",
+        "hide": true,
+        "dependsOn": [
+          "mdbook serve",
+          "browser at localhost:3000"
+        ],
+        "runOptions": {
+          "runOn": "folderOpen"
+        }
+      },
+      {
+        "label": "mdbook serve",
+        "hide": true,
+        "type": "shell",
+        "command": "./mdbook serve",
+        "group": "none",
+        "presentation": {
+          "reveal": "silent"
+        }
+      },
+      {
+        "label": "browser at localhost:3000",
+        "type": "process",
+        "hide": true,
+        "presentation": {
+          "reveal": "always"
+        },
+        "command": "${input:openSimpleBrowser}"
+      }
+    ],
+    "inputs": [
+        {
+        "id": "openSimpleBrowser",
+        "type": "command",
+        "command": "simpleBrowser.show",
+        "args": ["http://localhost:3000"]
+        }
+    ]
+  }
