@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('Quicksand-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Noto Emoji';
+  src: url('NotoEmoji-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  src: url('UbuntuMono-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: italic;
+  src: url('UbuntuMono-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 500;
+  src: url('UbuntuMono-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: italic;
+  font-weight: 500;
+  src: url('UbuntuMono-BoldItalic.ttf');
+}
