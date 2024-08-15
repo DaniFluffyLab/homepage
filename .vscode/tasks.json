@@ -5,27 +5,26 @@
         "label": "onFolderOpen",
         "hide": true,
         "dependsOn": [
-          "mdbook serve",
-          "browser at localhost:3000"
+          "Iniciar servidor mdBook",
+          "Abrir preview do mdBook"
         ],
         "runOptions": {
           "runOn": "folderOpen"
         }
       },
       {
-        "label": "mdbook serve",
-        "hide": true,
+        "label": "Iniciar servidor mdBook",
         "type": "shell",
         "command": "./mdbook serve",
         "group": "none",
         "presentation": {
           "reveal": "silent"
-        }
+        },
+        "problemMatcher": []
       },
       {
-        "label": "browser at localhost:3000",
+        "label": "Abrir preview do mdBook",
         "type": "process",
-        "hide": true,
         "presentation": {
           "reveal": "always"
         },

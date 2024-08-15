@@ -5,3 +5,6 @@ description = "Ambiente para publicar miniscripts, fórmulas de Excel e GSheets 
 language = "pt"
 multilingual = false
 src = "src"
+
+[build]
+create-missing = false 
