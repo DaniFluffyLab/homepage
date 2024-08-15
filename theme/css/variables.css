@@ -28,6 +28,8 @@
     --sidebar-active: #2b79a2;
     --sidebar-spacer: #2d334f;
 
+    --border-radius: 15px;
+
     --scrollbar: var(--sidebar-fg);
 
     --icons: #737480;

@@ -275,7 +275,8 @@ pre > .buttons button {
 }
 pre > code {
     display: block;
-    padding: 1rem;
+    padding: 2rem;
+    border-radius: var(--border-radius);
 }
 
 /* FIXME: ACE editors overlap their buttons because ACE does absolute
