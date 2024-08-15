@@ -1,7 +1,7 @@
 [book]
-title = "GSuite - Toolbox"
+title = "Toolbox - DaniFluffyCat"
 authors = ["Daniele - @DaniFluffyCat"]
-description = "Toolbox com fórmulas customizadas e miniscripts úteis na GSuite e Apps Script"
+description = "Ambiente para publicar miniscripts, fórmulas de Excel e GSheets úteis, ou qualquer outro snippet útil"
 language = "pt"
 multilingual = false
 src = "src"
