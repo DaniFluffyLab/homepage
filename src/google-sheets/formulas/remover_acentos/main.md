@@ -2,7 +2,13 @@
 
 **Descrição:** Substitui os principais acentos da string para caracteres não-acentuados.
 
-**Marcadores de posição:**
+## Versão para uso como função customizada
+
+**Nome da função:**
+```
+REMOVER_ACENTOS
+```
+**Marcadores de posição de argumentos::**
 ```
 texto_a_remover_acentos
 ```

@@ -1,8 +1,24 @@
 # =CPFCHECK(cpf)
 
-**Descrição:** Valida o CPF, verificando os dois dígitos verificadores. O método de verificação é baseado nesse artigo: [Só Matemática -Cálculo do dígito verificador do CPF](Fórmulas/EXT_SOBRENOME.md)
+**Descrição:** Valida o CPF, calculando e verificando os dois dígitos verificadores. O método de verificação é baseado nesse artigo: [Só Matemática -Cálculo do dígito verificador do CPF](https://www.somatematica.com.br/faq/cpf.php)
 
-**Marcadores de posição:**
+<div class="note">
+<b>Nota da autora</b>
+
+Não consegui usar essa fórmula junto da _[ArrayFormula](https://support.google.com/docs/answer/3093275?hl=pt-BR)_, preciso ainda descobrir o porquê.
+Para usar em _ArrayFormula_, utilize a [versão de Apps Script](#versão-para-uso-no-google-apps-script). 
+
+
+
+</div>
+
+## Versão para uso como função customizada
+
+**Nome da função:**
+```
+CPFCHECK
+```
+**Marcadores de posição de argumentos:**
 ```
 cpf
 ```
@@ -57,7 +73,9 @@ cpf
     FALSO
 )
 ```
-**Versão para uso no Google Apps Script:**
+
+## Versão para uso no Google Apps Script
+
 ```javascript
 /**
  *  Valida o CPF, verificando os dois dígitos verificadores.

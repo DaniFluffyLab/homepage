@@ -1,8 +1,15 @@
 # =QRCODE(link)
 
-**Descrição:** Insere um QRCode do link informado na célula. Baseado nesta API: https://goqr.me/api/
+**Descrição:** Insere um QRCode do link informado na célula. Baseado nesta API: [https://goqr.me/api/](https://goqr.me/api/)
 
-**Marcadores de posição:**
+## Versão para uso como função customizada
+
+**Nome da função:**
+```
+QRCODE
+```
+
+**Marcadores de posição de argumentos::**
 ```
 link
 ```

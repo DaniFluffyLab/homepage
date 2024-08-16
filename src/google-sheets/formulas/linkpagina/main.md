@@ -1,8 +1,8 @@
 # =LINKPAGINA(nomeDaPagina)
 
-**Descrição:** Obtém um link que leva diretamente à página na planilha.
+**Descrição:** Obtém um link que leva diretamente à página na planilha a partir do nome da página. Fórmula útil para documentos com muitas páginas, pois pode-se utilizá-la para criar uma página de índice automatizada.
 
-**Para uso no Google Apps Script:**
+## Versão para uso no Google Apps Script
 ```javascript
 /**
  *  Obtém um link que leva diretamente à página na planilha.
