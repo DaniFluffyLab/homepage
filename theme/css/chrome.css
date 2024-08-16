@@ -105,7 +105,10 @@ a > .hljs {
 
 .authorTag {
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
+    gap: 20px;
     background-color: var(--bg2);
     border: 1px solid var(--inactive);
     border-radius: var(--border-radius);
@@ -121,19 +124,24 @@ a > .hljs {
     .pfp {
         width: 48px;
         border-radius: 48px;
-        margin-right: 10px;
+    }
+
+    .values {
+        padding: auto;
     }
 
     .authorName {
         font-weight: 800;
         font-size: 14pt;
         transition: 200ms;
+        text-align: center;
     }
-
+    
     .socialMedias {
         display: flex;
         align-items: center;
-        gap: 5px;
+        justify-content: center;
+        gap: 10px;
         margin-top: 5px;
 
         span {
