@@ -7,3 +7,4 @@ mdbook.exe
 
 # Arquivos temporários do Krita
 *~
+*.kra
