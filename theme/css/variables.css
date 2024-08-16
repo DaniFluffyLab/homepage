@@ -19,47 +19,57 @@
 .light,
 .navy,
 .rust {
-    --bg: hsl(226, 23%, 11%);
-    --fg: #bcbdd0;
-
-    --sidebar-bg: #282d3f;
-    --sidebar-fg: #c8c9db;
-    --sidebar-non-existant: #505274;
-    --sidebar-active: #2b79a2;
-    --sidebar-spacer: #2d334f;
 
     --border-radius: 15px;
 
-    --scrollbar: var(--sidebar-fg);
+    --bg: #1b0729;
+    --bg2: #321446;
+    --fg: #c8bfce;  
 
-    --icons: #737480;
-    --icons-hover: #b7b9cc;
+    --active: #00E68B;
+    --inactive: #7b618d;
 
-    --links: #2b79a2;
+    --note: #d682f5;
+    --warning: #ff8e00;
+    --important: #00E68B;
 
-    --inline-code-color: #c5c8c6;
 
-    --theme-popup-bg: #161923;
-    --theme-popup-border: #737480;
-    --theme-hover: #282e40;
 
-    --quote-bg: hsl(226, 15%, 17%);
-    --quote-border: hsl(226, 15%, 22%);
+    --sidebar-fg: var(--fg);
+    --sidebar-bg: var(--bg2);
+    --sidebar-non-existant: var(--inactive);
+    --sidebar-active: var(--active);
+    --sidebar-spacer: var(--inactive);
 
-    --warning-border: #ff8e00;
+    --scrollbar: var(--fg);
 
-    --table-border-color: hsl(226, 23%, 16%);
-    --table-header-bg: hsl(226, 23%, 31%);
-    --table-alternate-bg: hsl(226, 23%, 14%);
+    --icons: var(--inactive);
+    --icons-hover: var(--active);
 
-    --searchbar-border-color: #aaa;
-    --searchbar-bg: #aeaec6;
-    --searchbar-fg: #000;
-    --searchbar-shadow-color: #aaa;
-    --searchresults-header-fg: #5f5f71;
-    --searchresults-border-color: #5c5c68;
-    --searchresults-li-bg: #242430;
-    --search-mark-bg: #a2cff5;
+    --links: var(--active);
+
+    --inline-code-color: var(--fg);
+
+    --theme-popup-bg: var(--bg2);
+    --theme-popup-border: var(--inactive);
+    --theme-hover: var(--inactive);
+
+    --quote-bg: var(--bg2);
+    --quote-border: transparent;
+
+    --table-border-color: var(--inactive);
+    --table-header-bg: var(--fg);
+    --table-header-fg: var(--bg);
+    --table-alternate-bg: var(--bg2);
+
+    --searchbar-border-color: var(--fg);
+    --searchbar-bg: var(--bg);
+    --searchbar-fg: var(--fg);
+    --searchbar-shadow-color: transparent;
+    --searchresults-header-fg: var(--fg);
+    --searchresults-border-color: transparent;
+    --searchresults-li-bg: var(--quote-bg);
+    --search-mark-bg: var(--note);
 
     --color-scheme: dark;
 }

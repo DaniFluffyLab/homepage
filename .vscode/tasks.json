@@ -28,7 +28,8 @@
         "presentation": {
           "reveal": "always"
         },
-        "command": "${input:openSimpleBrowser}"
+        "command": "${input:openSimpleBrowser}",
+        "problemMatcher": []
       }
     ],
     "inputs": [

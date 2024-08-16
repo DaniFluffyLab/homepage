@@ -201,6 +201,12 @@ a > .hljs {
     #sidebar-toggle-anchor:checked ~ .page-wrapper .nav-wrapper { display: block; }
 }
 
+/* Box code */
+
+.hljs {
+    background-color: rgba(0, 0, 0, 70%)!important;
+}
+
 /* Inline code */
 
 :not(pre) > .hljs {
@@ -333,7 +339,7 @@ mark.fade-out {
     padding: 10px 16px;
     transition: box-shadow 300ms ease-in-out;
     border: 1px solid var(--searchbar-border-color);
-    border-radius: 3px;
+    border-radius: var(--border-radius);
     background-color: var(--searchbar-bg);
     color: var(--searchbar-fg);
 }
@@ -539,7 +545,7 @@ ul#searchresults span.teaser em {
 
 .spacer {
     width: 100%;
-    height: 3px;
+    height: 1px;
     margin: 5px 0px;
 }
 .chapter .spacer {
