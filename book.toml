@@ -10,5 +10,4 @@ src = "src"
 create-missing = false 
 
 [output.html]
-git-repository-url = "https://github.com/DaniFluffyLab/toolbox"
 cname = "toolbox.danifluffy.dev"

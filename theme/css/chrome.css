@@ -64,6 +64,14 @@ a > .hljs {
     cursor: pointer;
     transition: color 0.5s;
 }
+
+.menu-title {
+    margin: 20px;
+    background-image: var(--logo);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 @media only screen and (max-width: 420px) {
     #menu-bar i, #menu-bar .icon-button {
         padding: 0 5px;
@@ -93,6 +101,67 @@ a > .hljs {
 }
 .no-js .left-buttons button {
     display: none;
+}
+
+.authorTag {
+    display: flex;
+    padding: 10px;
+    background-color: var(--bg2);
+    border: 1px solid var(--inactive);
+    border-radius: var(--border-radius);
+    transition: 200ms;
+
+    &:hover {
+        background-color: var(--bg);
+        .authorName {
+            color: var(--note);
+        }
+    }
+
+    .pfp {
+        width: 48px;
+        border-radius: 48px;
+        margin-right: 10px;
+    }
+
+    .authorName {
+        font-weight: 800;
+        font-size: 14pt;
+        transition: 200ms;
+    }
+
+    .socialMedias {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-top: 5px;
+
+        span {
+            margin-bottom: 3px;
+        }
+
+        a {
+            background-size: contain;
+            background-repeat: no-repeat;
+            transition: 200ms;
+            width: 15px;
+            height: 15px;
+        }
+
+        a[href*="instagram.com"] {
+            background-image: url(/theme-imgs/instagram.png);
+            &:hover {
+                background-image: url(/theme-imgs/instagram-hover.png);
+            }
+        }
+
+        a[href*="github.com"] {
+            background-image: url(/theme-imgs/github.png);
+            &:hover {
+                background-image: url(/theme-imgs/github-hover.png);
+            }
+        }
+    }
 }
 
 .menu-title {

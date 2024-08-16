@@ -1,9 +1,9 @@
 # Armazena as builds temporárias do mdbook  
 book
-
-# Contém os arquivos de tema originais do mdbook para referência
-native-theme
+index.html
 
 # Executável do mdbook no Ruindows :p
 mdbook.exe
-index.html
+
+# Arquivos temporários do Krita
+*~
