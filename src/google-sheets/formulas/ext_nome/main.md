@@ -3,13 +3,13 @@
 **Descrição:** Obtém o nome da pessoa, extraindo todos os caracteres anteriores ao primeiro espaço do texto.[^1]
 
 
-## Versão para uso como função customizada
+## Versão para uso como função nomeada
 
 **Nome da função:**
 ```
 EXT_NOME
 ```
-**Marcadores de posição de argumentos::**
+**Marcadores de posição de argumentos:**
 ```
 nome_completo
 ```

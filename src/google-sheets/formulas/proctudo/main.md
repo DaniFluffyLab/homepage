@@ -27,7 +27,7 @@ Lembre-se que as duas colunas referenciadas **precisam ser** do mesmo tamanho.
 Esta fórmula (ainda) não funciona com _[ArrayFormula](https://support.google.com/docs/answer/3093275?hl=pt-BR)_.
 </div>
 
-## Versão para uso como função customizada
+## Versão para uso como função nomeada
 
 **Nome da função:**
 ```

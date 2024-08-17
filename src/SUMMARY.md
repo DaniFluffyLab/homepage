@@ -6,7 +6,7 @@
 
 # Fórmulas para GSheets
 
-- [Como criar fórmulas customizadas](./google-sheets/instrucoes/main.md)
+- [Como usar as fórmulas](./google-sheets/instrucoes/main.md)
 - [Fórmulas](./google-sheets/formulas/main.md) 
     - [CPFCHECK( )](./google-sheets/formulas/cpfcheck/main.md)
     - [EXT_NOME( )](./google-sheets/formulas/ext_nome/main.md)

@@ -12,7 +12,7 @@ Para usar em _ArrayFormula_, utilize a [versão de Apps Script](#versão-para-us
 
 </div>
 
-## Versão para uso como função customizada
+## Versão para uso como função nomeada
 
 **Nome da função:**
 ```

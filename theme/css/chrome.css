@@ -172,6 +172,10 @@ a > .hljs {
     }
 }
 
+#theme-toggle {
+    display: none;
+}
+
 .menu-title {
     display: inline-block;
     font-weight: 200;

@@ -2,7 +2,7 @@
 
 **Descrição:** Substitui os principais acentos da string para caracteres não-acentuados.
 
-## Versão para uso como função customizada
+## Versão para uso como função nomeada
 
 **Nome da função:**
 ```
