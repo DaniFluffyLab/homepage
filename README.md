@@ -3,7 +3,7 @@
 </h1>
 
 <p style="text-align: center">
-    <a href="https://toolbox.danifluffy.dev"><img src="./.github/button-readme.png" alt="Acesse o site" style="max-height: 40px"></a>
+    <a href="https://toolbox.danifluffy.dev"><img src="./.github/button-readme.png" alt="Acesse o site" height="35px"></a>
 <p>
 
 Neste site você encontrará alguns minicódigos, fórmulas de Google Sheets, tutoriais, ou qualquer outra coisa que eu tenha feito e ache útil o bastante para compartilhar hehe :p

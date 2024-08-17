@@ -32,6 +32,4 @@ Sou editora de videos para os canais [Pra Quem Gosta](https://www.youtube.com/c/
 
 Também posto _muuuuito esporadicamente_ algumas artes [no meu Instagram](https://instagram.com/danifluffycat), me segue por lá!
 
-## 
-
 [^1]: Se você não entendeu, [um minicontexto :3](https://www.reddit.com/r/transprogrammer/comments/152ajf1/ig_its_time_for_my_to_start_studying_computer/)
