@@ -65,7 +65,7 @@ Para saber mais, [leia este artigo no suporte do Google.](https://developers.goo
 
 ![Imagem mostrando onde encontrar a opção acima descrita](./funcaonomeada-inst7.png)
 
-2. Copie o código da função customizada e cole na última linha do documento.
+2. Copie o código da função customizada, cole na última linha do documento e salve.
 
 ![Imagem mostrando onde encontrar a opção acima descrita](./funcaonomeada-inst8.png)
 
