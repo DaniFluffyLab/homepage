@@ -157,16 +157,16 @@ a > .hljs {
         }
 
         a[href*="instagram.com"] {
-            background-image: url(/theme-imgs/instagram.png);
+            background-image: url(/theme/instagram.png);
             &:hover {
-                background-image: url(/theme-imgs/instagram-hover.png);
+                background-image: url(/theme/instagram-hover.png);
             }
         }
 
         a[href*="github.com"] {
-            background-image: url(/theme-imgs/github.png);
+            background-image: url(/theme/github.png);
             &:hover {
-                background-image: url(/theme-imgs/github-hover.png);
+                background-image: url(/theme/github-hover.png);
             }
         }
     }

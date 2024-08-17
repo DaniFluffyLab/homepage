@@ -33,7 +33,7 @@
     --warning: #ff8e00;
     --important: #00E68B;
 
-    --logo: url(/theme-imgs/logo.png);
+    --logo: url(/theme/logo.png);
 
 
     --sidebar-fg: var(--fg);
