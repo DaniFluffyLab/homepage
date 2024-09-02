@@ -280,8 +280,13 @@ a > .hljs {
 
 /* Box code */
 
-.hljs {
+.hljs, code {
     background-color: rgba(0, 0, 0, 70%)!important;
+}
+
+body.no-js code {
+    background-color: rgba(0, 0, 0, 70%)!important;
+    color: rgb(209, 183, 216);
 }
 
 /* Inline code */
