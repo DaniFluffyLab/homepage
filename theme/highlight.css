@@ -1,0 +1,82 @@
+/*
+ * An increased contrast highlighting scheme loosely based on the
+ * "Base16 Atelier Dune Light" theme by Bram de Haan
+ * (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
+ * Original Base16 color scheme by Chris Kempson
+ * (https://github.com/chriskempson/base16)
+ */
+
+/* Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #a3a2a2;
+}
+
+/* Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #e2526a;
+}
+
+/* Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #c96551;
+}
+
+/* Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #4ec24e;
+}
+
+/* Blue */
+.hljs-title,
+.hljs-section {
+  color: #6b86f5;
+}
+
+/* Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #c261f3;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: rgba(0, 0, 0, 70%);
+  color: rgb(209, 183, 216);
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-addition {
+  color: #52a565;
+  background-color: rgba(0, 0, 0, 70%);
+}
+
+.hljs-deletion {
+  color: #c25e64;
+  background-color: rgba(0, 0, 0, 70%);
+}
