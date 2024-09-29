@@ -1,0 +1,852 @@
+{
+    "alert_image": {
+        "type": "image-input",
+        "label": "Imagem do alerta",
+        "group": "Configs. alerta"
+    },
+    "alert_text": {
+        "type": "text",
+        "label": "Texto do alerta",
+        "value": "{username} tocou {audioname}",
+        "group": "Configs. alerta"
+    },
+    "alert_textcolor": {
+        "type": "colorpicker",
+        "label": "Cor do texto",
+        "value": "#ffffff",
+        "group": "Configs. alerta"
+    },
+    "alert_shoutouttextcolor": {
+        "type": "colorpicker",
+        "label": "Cor de destaque do texto",
+        "value": "#cccc00",
+        "group": "Configs. alerta"
+    },
+    "alert_fade": {
+        "type": "number",
+        "label": "Duração do alerta (em seg)",
+        "value": 10,
+        "min": 5,
+        "max": 30,
+        "step": 1,
+        "group": "Configs. alerta"
+    },
+    "alert_globaltimeout": {
+        "type": "number",
+        "label": "Tempo mínimo entre alertas (em seg)",
+        "value": 10,
+        "min": 5,
+        "max": 999,
+        "step": 1,
+        "group": "Configs. alerta"
+    },
+    "alert_usertimeout": {
+        "type": "number",
+        "label": "Cooldown do usuário (em seg)",
+        "value": 10,
+        "min": 5,
+        "max": 999,
+        "step": 1,
+        "group": "Configs. alerta"
+    },
+    "audio01_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 01"
+    },
+    "audio01_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 01"
+    },
+    "audio01_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 01"
+    },
+    "audio02_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 02"
+    },
+    "audio02_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 02"
+    },
+    "audio02_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 02"
+    },
+    "audio03_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 03"
+    },
+    "audio03_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 03"
+    },
+    "audio03_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 03"
+    },
+    "audio04_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 04"
+    },
+    "audio04_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 04"
+    },
+    "audio04_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 04"
+    },
+    "audio05_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 05"
+    },
+    "audio05_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 05"
+    },
+    "audio05_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 05"
+    },
+    "audio06_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 06"
+    },
+    "audio06_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 06"
+    },
+    "audio06_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 06"
+    },
+    "audio07_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 07"
+    },
+    "audio07_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 07"
+    },
+    "audio07_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 07"
+    },
+    "audio08_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 08"
+    },
+    "audio08_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 08"
+    },
+    "audio08_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 08"
+    },
+    "audio09_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 09"
+    },
+    "audio09_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 09"
+    },
+    "audio09_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 09"
+    },
+    "audio10_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 10"
+    },
+    "audio10_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 10"
+    },
+    "audio10_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 10"
+    },
+    "audio11_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 11"
+    },
+    "audio11_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 11"
+    },
+    "audio11_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 11"
+    },
+    "audio12_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 12"
+    },
+    "audio12_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 12"
+    },
+    "audio12_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 12"
+    },
+    "audio13_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 13"
+    },
+    "audio13_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 13"
+    },
+    "audio13_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 13"
+    },
+    "audio14_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 14"
+    },
+    "audio14_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 14"
+    },
+    "audio14_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 14"
+    },
+    "audio15_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 15"
+    },
+    "audio15_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 15"
+    },
+    "audio15_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 15"
+    },
+    "audio16_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 16"
+    },
+    "audio16_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 16"
+    },
+    "audio16_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 16"
+    },
+    "audio17_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 17"
+    },
+    "audio17_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 17"
+    },
+    "audio17_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 17"
+    },
+    "audio18_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 18"
+    },
+    "audio18_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 18"
+    },
+    "audio18_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 18"
+    },
+    "audio19_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 19"
+    },
+    "audio19_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 19"
+    },
+    "audio19_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 19"
+    },
+    "audio20_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 20"
+    },
+    "audio20_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 20"
+    },
+    "audio20_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 20"
+    },
+    "audio21_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 21"
+    },
+    "audio21_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 21"
+    },
+    "audio21_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 21"
+    },
+    "audio22_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 22"
+    },
+    "audio22_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 22"
+    },
+    "audio22_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 22"
+    },
+    "audio23_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 23"
+    },
+    "audio23_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 23"
+    },
+    "audio23_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 23"
+    },
+    "audio24_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 24"
+    },
+    "audio24_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 24"
+    },
+    "audio24_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 24"
+    },
+    "audio25_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 25"
+    },
+    "audio25_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 25"
+    },
+    "audio25_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 25"
+    },
+    "audio26_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 26"
+    },
+    "audio26_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 26"
+    },
+    "audio26_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 26"
+    },
+    "audio27_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 27"
+    },
+    "audio27_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 27"
+    },
+    "audio27_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 27"
+    },
+    "audio28_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 28"
+    },
+    "audio28_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 28"
+    },
+    "audio28_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 28"
+    },
+    "audio29_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 29"
+    },
+    "audio29_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 29"
+    },
+    "audio29_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 29"
+    },
+    "audio30_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 30"
+    },
+    "audio30_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 30"
+    },
+    "audio30_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 30"
+    },
+    "audio31_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 31"
+    },
+    "audio31_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 31"
+    },
+    "audio31_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 31"
+    },
+    "audio32_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 32"
+    },
+    "audio32_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 32"
+    },
+    "audio32_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 32"
+    },
+    "audio33_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 33"
+    },
+    "audio33_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 33"
+    },
+    "audio33_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 33"
+    },
+    "audio34_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 34"
+    },
+    "audio34_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 34"
+    },
+    "audio34_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 34"
+    },
+    "audio35_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 35"
+    },
+    "audio35_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 35"
+    },
+    "audio35_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 35"
+    },
+    "audio36_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 36"
+    },
+    "audio36_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 36"
+    },
+    "audio36_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 36"
+    },
+    "audio37_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 37"
+    },
+    "audio37_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 37"
+    },
+    "audio37_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 37"
+    },
+    "audio38_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 38"
+    },
+    "audio38_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 38"
+    },
+    "audio38_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 38"
+    },
+    "audio39_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 39"
+    },
+    "audio39_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 39"
+    },
+    "audio39_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 39"
+    },
+    "audio40_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 40"
+    },
+    "audio40_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 40"
+    },
+    "audio40_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 40"
+    },
+    "audio41_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 41"
+    },
+    "audio41_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 41"
+    },
+    "audio41_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 41"
+    },
+    "audio42_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 42"
+    },
+    "audio42_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 42"
+    },
+    "audio42_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 42"
+    },
+    "audio43_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 43"
+    },
+    "audio43_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 43"
+    },
+    "audio43_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 43"
+    },
+    "audio44_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 44"
+    },
+    "audio44_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 44"
+    },
+    "audio44_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 44"
+    },
+    "audio45_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 45"
+    },
+    "audio45_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 45"
+    },
+    "audio45_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 45"
+    },
+    "audio46_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 46"
+    },
+    "audio46_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 46"
+    },
+    "audio46_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 46"
+    },
+    "audio47_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 47"
+    },
+    "audio47_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 47"
+    },
+    "audio47_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 47"
+    },
+    "audio48_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 48"
+    },
+    "audio48_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 48"
+    },
+    "audio48_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 48"
+    },
+    "audio49_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 49"
+    },
+    "audio49_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 49"
+    },
+    "audio49_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 49"
+    },
+    "audio50_active": {
+        "type": "checkbox",
+        "label": "Ativar áudio",
+        "group": "🎶 Áudio 50"
+    },
+    "audio50_name": {
+        "type": "text",
+        "label": "Comando para acionar áudio",
+        "value": "Digite o comando aqui",
+        "group": "🎶 Áudio 50"
+    },
+    "audio50_file": {
+        "type": "sound-input",
+        "label": "Arquivo de áudio",
+        "group": "🎶 Áudio 50"
+    }
+}
