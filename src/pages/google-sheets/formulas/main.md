@@ -1,4 +1,7 @@
-# Fórmulas do Google Sheets - Índice
+# Fórmulas customizadas do Google Sheets - Índice
+
+## [Como utilizar](./instrucoes/main.md)
+Se você nunca usou e não está familiarizado com fórmulas customizadas no Google Sheets, comece por aqui! [Leia mais.](./instrucoes/main.md)
 
 ## [=CPFCHECK(cpf)](./cpfcheck/main.md)
 Valida o CPF, calculando e verificando os dois dígitos verificadores. [Leia mais.](./cpfcheck/main.md)
@@ -18,5 +21,5 @@ Fórmula com função parecida do PROCV: ela procura um valor na planilha e reto
 ## [=QRCODE(link)](./qrcode/main.md)
 Insere um QRCode do link informado na célula. [Leia mais.](./qrcode/main.md)
 
-# [=REMOVER_ACENTOS(texto_a_remover_acentos)](./remover_acentos/main.md)
+## [=REMOVER_ACENTOS(texto_a_remover_acentos)](./remover_acentos/main.md)
 Substitui os principais acentos da string para caracteres não-acentuados. [Leia mais.](./remover_acentos/main.md)

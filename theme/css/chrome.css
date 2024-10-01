@@ -151,9 +151,15 @@ a > .hljs {
         a {
             background-size: contain;
             background-repeat: no-repeat;
-            transition: 200ms;
+            transition: 200ms ease;
             width: 15px;
             height: 15px;
+            margin: 0px;
+            &:hover {
+                width: 21px;
+                height: 21px;
+                margin: -3px;
+            }
         }
 
         a[href*="instagram.com"] {
@@ -167,6 +173,13 @@ a > .hljs {
             background-image: url(/theme/github.png);
             &:hover {
                 background-image: url(/theme/github-hover.png);
+            }
+        }
+
+        a[href*="bsky.app"] {
+            background-image: url(/theme/bsky.png);
+            &:hover {
+                background-image: url(/theme/bsky-hover.png);
             }
         }
     }

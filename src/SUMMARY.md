@@ -4,18 +4,27 @@
 
 ---
 
-# Fórmulas para GSheets
+# Projetos pessoais
 
-- [Como usar as fórmulas](./google-sheets/instrucoes/main.md)
-- [Fórmulas](./google-sheets/formulas/main.md) 
-    - [CPFCHECK( )](./google-sheets/formulas/cpfcheck/main.md)
-    - [EXT_NOME( )](./google-sheets/formulas/ext_nome/main.md)
-    - [EXT_SOBRENOME( )](./google-sheets/formulas/ext_sobrenome/main.md)
-    - [LINKPAGINA( )](./google-sheets/formulas/linkpagina/main.md)
-    - [PROCTUDO( )](./google-sheets/formulas/proctudo/main.md)
-    - [QRCODE( )](./google-sheets/formulas/qrcode/main.md)
-    - [REMOVER_ACENTOS( )](./google-sheets/formulas/remover_acentos/main.md)
+- [WIP - Em breve...]()
+
+# Google Sheets
+
+- [Fórmulas](./pages/google-sheets/formulas/main.md) 
+    - [Como utilizar](./pages/google-sheets/formulas/instrucoes/main.md)
+    - [CPFCHECK( )](./pages/google-sheets/formulas/cpfcheck/main.md)
+    - [EXT_NOME( )](./pages/google-sheets/formulas/ext_nome/main.md)
+    - [EXT_SOBRENOME( )](./pages/google-sheets/formulas/ext_sobrenome/main.md)
+    - [LINKPAGINA( )](./pages/google-sheets/formulas/linkpagina/main.md)
+    - [PROCTUDO( )](./pages/google-sheets/formulas/proctudo/main.md)
+    - [QRCODE( )](./pages/google-sheets/formulas/qrcode/main.md)
+    - [REMOVER_ACENTOS( )](./pages/google-sheets/formulas/remover_acentos/main.md)
+- [RegEx (WIP - em breve...)]()
     
-    
+# StreamElements
+- [Widgets](./pages/streamelements/custom-widgets/main.md)
+    - [Soundboard](./pages/streamelements/custom-widgets/soundboard/main.md)
+    - [WIP - em breve...]()
+
     
     

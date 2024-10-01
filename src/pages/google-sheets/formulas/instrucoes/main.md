@@ -1,4 +1,4 @@
-# Fórmulas customizadas
+# Como utilizar funções nomeadas
 
 O Google Sheets possui duas formas para criar fórmulas customizadas nas suas planilhas: **Funções nomeadas** e **Funções no Apps Script**. Depois de instalar uma fórmula customizada, você pode chamar ela na sua planilha como qualquer fórmula normal, como `=SUAFORMULA(A2)`.
 

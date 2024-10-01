@@ -11,3 +11,4 @@ create-missing = false
 
 [output.html]
 cname = "toolbox.danifluffy.dev"
+fold.enable = true
