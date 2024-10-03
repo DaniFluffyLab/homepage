@@ -5,8 +5,7 @@
 ---
 
 # Projetos pessoais
-
-- [WIP - Em breve...]()
+- [Tradutor de Língua Antiga - RPG Chrysopoeia](./pages/projects/lingua-antiga/main.md)
 
 # Google Sheets
 
