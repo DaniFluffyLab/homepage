@@ -23,8 +23,8 @@
     
 # StreamElements
 - [Widgets](./pages/streamelements/custom-widgets/main.md)
+    - [Caixa de texto personalizada](./pages/streamelements/custom-widgets/custom-text/main.md)
+    - [Fonte de IFrame](./pages/streamelements/custom-widgets/iframe/main.md)
+    - [Slideshow](./pages/streamelements/custom-widgets/slideshow/main.md)
     - [Soundboard](./pages/streamelements/custom-widgets/soundboard/main.md)
     - [WIP - em breve...]()
-
-    
-    

@@ -1,0 +1,26 @@
+{
+    "transitionSpeed": {
+        "group": "Transição",
+        "type": "slider",
+        "label": "Velocidade da transição (ms)",
+        "value": 200,
+        "min": 50,
+        "max": 2000,
+        "step": 50
+    },
+    "transitionInterval": {
+        "group": "Transição",
+        "type": "slider",
+        "label": "Tempo entre imagens (ms)",
+        "value": 5000,
+        "min": 500,
+        "max": 10000,
+        "step": 500
+    },
+    "imagesURLs": {
+        "group": "Imagens",
+        "type": "image-input",
+        "multiple": true,
+        "label": "Imagens"
+    }
+}

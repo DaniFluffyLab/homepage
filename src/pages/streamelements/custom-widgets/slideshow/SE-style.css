@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+    transition: var(--transitionSpeed) ease-in-out;
+    opacity: 0%;
+}
+
+[visible='true'] {
+    opacity: 100%;
+}

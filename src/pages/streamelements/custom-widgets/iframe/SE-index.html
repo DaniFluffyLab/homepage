@@ -1,0 +1,19 @@
+<body style="
+    --cropTop: {{cropTop}}px;
+    --cropBottom: {{cropBottom}}px;
+    --cropLeft: {{cropLeft}}px;
+    --cropRight: {{cropRight}}px;
+">
+
+    <div class="cutcontainer">
+        <div class="placeholder" active="{{placeholderActive}}">
+            <h2>Placeholder</h2>
+            <p>Aqui irá ficar o site de URL:</p>
+            <code>{{URL}}</code>
+            <br>
+            <p>Lembre de desativar o placeholder antes de salvar.</p>
+        </div>
+        <iframe src="{{URL}}" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+    </div>
+
+</body>

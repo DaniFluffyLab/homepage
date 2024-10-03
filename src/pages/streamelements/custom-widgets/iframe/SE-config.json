@@ -1,0 +1,49 @@
+{
+    "URL": {
+    "group": "Fonte de iFrame",
+    "type": "text",
+    "label": "URL",
+    "value": "https://example.com"
+    },
+    "placeholderActive": {
+    "group": "Fonte de iFrame",
+    "type": "checkbox",
+    "label": "Exibir placeholder"
+    },
+    "cropTop": {
+    "group": "Recortar",
+    "type": "number",
+    "label": "Cima",
+    "value": 0,
+    "min": 0,
+    "max": 4000,
+    "step": 1
+    },
+    "cropBottom": {
+    "group": "Recortar",
+    "type": "number",
+    "label": "Baixo",
+    "value": 0,
+    "min": 0,
+    "max": 4000,
+    "step": 1
+    },
+    "cropLeft": {
+    "group": "Recortar",
+    "type": "number",
+    "label": "Esquerda",
+    "value": 0,
+    "min": 0,
+    "max": 4000,
+    "step": 1
+    },
+    "cropRight": {
+    "group": "Recortar",
+    "type": "number",
+    "label": "Direita",
+    "value": 0,
+    "min": 0,
+    "max": 4000,
+    "step": 1
+    }
+    }
