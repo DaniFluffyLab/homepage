@@ -1,10 +1,10 @@
 # Slideshow
 
-<div class="warning"><b>Perdão pela reforma, estamos em transtorno :(</b>
+<p align="center"><video src="slideshow-demo.mp4" mute loop autoplay></video></p>
 
-Você está em uma parte do site que eu ainda não terminei de escrever •- •<br>
-A documentação pode não estar bem escrita, e alguns links podem estar quebrados.
-</div>
+Este widget serve para adicionar várias imagens que se alternam num tempo especificado. É bem útil para colocar logos se alternando no canto do overlay.
+
+[Veja aqui como instalar widgets no StreamElements.](../instrucoes/main.md)
 
 ## HTML
 ```html
