@@ -1,6 +1,6 @@
 # Slideshow
 
-<p align="center"><video src="slideshow-demo.mp4" mute loop autoplay></video></p>
+![Demonstração do widget](slideshow-demo.webp)
 
 Este widget serve para adicionar várias imagens que se alternam num tempo especificado. É bem útil para colocar logos se alternando no canto do overlay.
 
