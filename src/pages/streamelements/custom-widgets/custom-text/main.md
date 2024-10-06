@@ -1,10 +1,10 @@
 # Caixa de texto personalizada
 
-<div class="warning"><b>Perdão pela reforma, estamos em transtorno :(</b>
+![Prévia do widget](preview.png)
 
-Você está em uma parte do site que eu ainda não terminei de escrever •- •<br>
-A documentação pode não estar bem escrita, e alguns links podem estar quebrados.
-</div>
+Este widget serve para criar uma caixa de texto customizada, com mais funções de personalização que a nativa do StreamElements, como possibilidade de adicionar fontes customizadas e contorno nas letras.
+
+[Veja aqui como instalar widgets no StreamElements.](../instrucoes/main.md)
 
 ## HTML
 ```html
@@ -14,6 +14,11 @@ A documentação pode não estar bem escrita, e alguns links podem estar quebrad
 ## CSS
 ```css
 {{#include SE-style.css}}
+```
+
+## Javascript
+```javascript
+{{#include SE-script.js}}
 ```
 
 ## Fields

@@ -235,7 +235,7 @@ blockquote,
 
     /* Remove cor dos childs */
     & * {
-        color: initial;
+        color: var(--fg);
     }
 
 }
