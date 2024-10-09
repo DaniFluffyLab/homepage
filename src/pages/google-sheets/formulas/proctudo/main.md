@@ -21,12 +21,6 @@ Para isso, utilize o PROCTUDO da seguinte maneira:
 
 Lembre-se que as duas colunas referenciadas **precisam ser** do mesmo tamanho.
 
-<div class="note">
-<b>Nota da autora</b>
-
-Esta fórmula (ainda) não funciona com _[ArrayFormula](https://support.google.com/docs/answer/3093275?hl=pt-BR)_.
-</div>
-
 ## Versão para uso como função nomeada
 
 **Nome da função:**
@@ -46,5 +40,5 @@ coluna_a_retornar
 
 **Definição da fórmula:**
 ```
-=JOIN("; "; UNIQUE(FILTER(coluna_a_retornar;coluna_a_pesquisar = informacao_a_pesquisar)))
+=BYROW(informacao_a_pesquisar;LAMBDA(λ;JOIN("; "; UNIQUE(FILTER(coluna_a_retornar;coluna_a_pesquisar = λ)))))
 ```
