@@ -1,10 +1,10 @@
 # Fonte de IFrame
 
-<div class="warning"><b>Perdão pela reforma, estamos em transtorno :(</b>
+![Demonstração do widget](preview.webp)
 
-Você está em uma parte do site que eu ainda não terminei de escrever •- •<br>
-A documentação pode não estar bem escrita, e alguns links podem estar quebrados.
-</div>
+Este widget adiciona um site dentro do overlay do StreamElements, desde que ele tenha suporte para incorporação. No exemplo acima, este widget é usado para inserir uma webcam do [OBS.ninja](https://vdo.ninja) diretamente no overlay.
+
+Agradecimentos especiais para a Dabs, do [Pra Quem Gosta](https://www.youtube.com/c/PraQuemGosta), por me permitir publicar este widget que eu fiz pra uso dela ^^
 
 ## HTML
 ```html

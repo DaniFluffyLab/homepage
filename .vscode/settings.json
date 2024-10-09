@@ -1,4 +1,5 @@
 {
     "search.useIgnoreFiles": true,
-    "search.useParentIgnoreFiles": true
+    "search.useParentIgnoreFiles": true,
+    "cSpell.language": "en,pt"
 }

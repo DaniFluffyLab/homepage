@@ -1,19 +1,18 @@
 # Soundboard para StreamElements
 
-<div class="warning"><b>Perdão pela reforma, estamos em transtorno :(</b>
+<div class="warning"><b>Este widget ainda está em desenvolvimento!</b>
 
-Você está em uma parte do site que eu ainda não terminei de escrever •- •<br>
-A documentação pode não estar bem escrita, e alguns links podem estar quebrados.
+Este código ainda não está bem documentado e não foi plenamente testado. _Use por sua conta e risco._
 </div>
 
 Este é um widget que aciona um áudio quando um espectador chama um comando.
 Criei ele na intenção de ser um tipo de "SoundAlerts" que funciona em lives no YouTube.
 
-> **A fazer:**
->
-> - Criar um botão de teste do alerta;
-> - Bolar algum meio do comando retornar algum feedback no chat;
-> - Documentar o widget.
+**A fazer:**
+
+- Criar um botão de teste do alerta;
+- Bolar algum meio do comando retornar algum feedback no chat;
+- Documentar o widget.
 
 ## HTML
 ```html
