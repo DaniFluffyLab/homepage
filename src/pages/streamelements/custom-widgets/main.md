@@ -8,12 +8,15 @@ Compartilho aqui alguns dos meus miniprojetos para que você possa usar na sua l
 Nunca usou um widget customizado? Comece por aqui! [Leia mais.](./instrucoes/main.md)
 
 ## [Caixa de texto personalizada](./custom-text/main.md)
+![Prévia do widget](./custom-text/preview.png)
 Este widget serve para criar uma caixa de texto customizada, com mais funções de personalização que a nativa do StreamElements, como possibilidade de adicionar fontes customizadas e contorno nas letras. [Leia mais.](./custom-text/main.md)
 
 ## [Fonte de IFrame](./iframe/main.md)
+![Prévia do widget](./iframe/preview.webp)
 Este widget adiciona um site dentro do overlay do StreamElements, desde que ele tenha suporte para incorporação. [Leia mais.](./iframe/main.md)
 
 ## [Slideshow](./slideshow/main.md)
+![Prévia do widget](./slideshow/slideshow-demo.webp)
 Este widget serve para adicionar várias imagens que se alternam num tempo especificado. É bem útil para colocar logos se alternando no canto do overlay. [Leia mais.](./slideshow/main.md)
 
 ## [Soundboard](./soundboard/main.md)
