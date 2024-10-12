@@ -10,7 +10,6 @@ Criei ele na intenção de ser um tipo de "SoundAlerts" que funciona em lives no
 
 **A fazer:**
 
-- Criar um botão de teste do alerta;
 - Bolar algum meio do comando retornar algum feedback no chat;
 - Documentar o widget.
 

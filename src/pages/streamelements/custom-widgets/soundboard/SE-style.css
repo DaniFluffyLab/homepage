@@ -7,7 +7,7 @@ body,
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-family: "Comfortaa", sans-serif;
+    font-family: "{{googleFont}}", sans-serif;
 }
 
 #alert_container {
@@ -33,6 +33,10 @@ body,
 
     span {
         color: var(--shoutout-text-color);
+    }
+
+    &[data-shadow="true"] {
+        filter: drop-shadow(0 0 1vh #00000050);
     }
 }
 

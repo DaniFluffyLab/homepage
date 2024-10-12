@@ -10,6 +10,12 @@
         "value": "{username} tocou {audioname}",
         "group": "Configs. alerta"
     },
+    "googleFont": {
+        "type": "googleFont",
+        "label": "Selecione a fonte:",
+        "value": "Roboto",
+        "group": "Configs. alerta"
+    },
     "alert_textcolor": {
         "type": "colorpicker",
         "label": "Cor do texto",
@@ -20,6 +26,12 @@
         "type": "colorpicker",
         "label": "Cor de destaque do texto",
         "value": "#cccc00",
+        "group": "Configs. alerta"
+    },
+    "alert_shadow": {
+        "type": "checkbox",
+        "label": "Sombra do texto",
+        "value": false,
         "group": "Configs. alerta"
     },
     "alert_fade": {
@@ -52,6 +64,7 @@
     "audio01_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 01"
     },
     "audio01_name": {
@@ -65,9 +78,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 01"
     },
+    "audio01_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio01",
+        "group": "🎶 Áudio 01"
+    },
     "audio02_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 02"
     },
     "audio02_name": {
@@ -81,9 +101,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 02"
     },
+    "audio02_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio02",
+        "group": "🎶 Áudio 02"
+    },
     "audio03_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 03"
     },
     "audio03_name": {
@@ -97,9 +124,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 03"
     },
+    "audio03_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio03",
+        "group": "🎶 Áudio 03"
+    },
     "audio04_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 04"
     },
     "audio04_name": {
@@ -113,9 +147,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 04"
     },
+    "audio04_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio04",
+        "group": "🎶 Áudio 04"
+    },
     "audio05_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 05"
     },
     "audio05_name": {
@@ -129,9 +170,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 05"
     },
+    "audio05_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio05",
+        "group": "🎶 Áudio 05"
+    },
     "audio06_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 06"
     },
     "audio06_name": {
@@ -145,9 +193,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 06"
     },
+    "audio06_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio06",
+        "group": "🎶 Áudio 06"
+    },
     "audio07_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 07"
     },
     "audio07_name": {
@@ -161,9 +216,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 07"
     },
+    "audio07_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio07",
+        "group": "🎶 Áudio 07"
+    },
     "audio08_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 08"
     },
     "audio08_name": {
@@ -177,9 +239,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 08"
     },
+    "audio08_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio08",
+        "group": "🎶 Áudio 08"
+    },
     "audio09_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 09"
     },
     "audio09_name": {
@@ -193,9 +262,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 09"
     },
+    "audio09_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio09",
+        "group": "🎶 Áudio 09"
+    },
     "audio10_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 10"
     },
     "audio10_name": {
@@ -209,9 +285,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 10"
     },
+    "audio10_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio10",
+        "group": "🎶 Áudio 10"
+    },
     "audio11_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 11"
     },
     "audio11_name": {
@@ -225,9 +308,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 11"
     },
+    "audio11_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio11",
+        "group": "🎶 Áudio 11"
+    },
     "audio12_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 12"
     },
     "audio12_name": {
@@ -241,9 +331,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 12"
     },
+    "audio12_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio12",
+        "group": "🎶 Áudio 12"
+    },
     "audio13_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 13"
     },
     "audio13_name": {
@@ -257,9 +354,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 13"
     },
+    "audio13_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio13",
+        "group": "🎶 Áudio 13"
+    },
     "audio14_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 14"
     },
     "audio14_name": {
@@ -273,9 +377,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 14"
     },
+    "audio14_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio14",
+        "group": "🎶 Áudio 14"
+    },
     "audio15_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 15"
     },
     "audio15_name": {
@@ -289,9 +400,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 15"
     },
+    "audio15_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio15",
+        "group": "🎶 Áudio 15"
+    },
     "audio16_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 16"
     },
     "audio16_name": {
@@ -305,9 +423,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 16"
     },
+    "audio16_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio16",
+        "group": "🎶 Áudio 16"
+    },
     "audio17_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 17"
     },
     "audio17_name": {
@@ -321,9 +446,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 17"
     },
+    "audio17_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio17",
+        "group": "🎶 Áudio 17"
+    },
     "audio18_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 18"
     },
     "audio18_name": {
@@ -337,9 +469,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 18"
     },
+    "audio18_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio18",
+        "group": "🎶 Áudio 18"
+    },
     "audio19_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 19"
     },
     "audio19_name": {
@@ -353,9 +492,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 19"
     },
+    "audio19_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio19",
+        "group": "🎶 Áudio 19"
+    },
     "audio20_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 20"
     },
     "audio20_name": {
@@ -369,9 +515,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 20"
     },
+    "audio20_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio20",
+        "group": "🎶 Áudio 20"
+    },
     "audio21_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 21"
     },
     "audio21_name": {
@@ -385,9 +538,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 21"
     },
+    "audio21_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio21",
+        "group": "🎶 Áudio 21"
+    },
     "audio22_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 22"
     },
     "audio22_name": {
@@ -401,9 +561,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 22"
     },
+    "audio22_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio22",
+        "group": "🎶 Áudio 22"
+    },
     "audio23_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 23"
     },
     "audio23_name": {
@@ -417,9 +584,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 23"
     },
+    "audio23_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio23",
+        "group": "🎶 Áudio 23"
+    },
     "audio24_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 24"
     },
     "audio24_name": {
@@ -433,9 +607,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 24"
     },
+    "audio24_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio24",
+        "group": "🎶 Áudio 24"
+    },
     "audio25_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 25"
     },
     "audio25_name": {
@@ -449,9 +630,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 25"
     },
+    "audio25_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio25",
+        "group": "🎶 Áudio 25"
+    },
     "audio26_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 26"
     },
     "audio26_name": {
@@ -465,9 +653,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 26"
     },
+    "audio26_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio26",
+        "group": "🎶 Áudio 26"
+    },
     "audio27_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 27"
     },
     "audio27_name": {
@@ -481,9 +676,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 27"
     },
+    "audio27_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio27",
+        "group": "🎶 Áudio 27"
+    },
     "audio28_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 28"
     },
     "audio28_name": {
@@ -497,9 +699,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 28"
     },
+    "audio28_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio28",
+        "group": "🎶 Áudio 28"
+    },
     "audio29_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 29"
     },
     "audio29_name": {
@@ -513,9 +722,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 29"
     },
+    "audio29_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio29",
+        "group": "🎶 Áudio 29"
+    },
     "audio30_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 30"
     },
     "audio30_name": {
@@ -529,9 +745,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 30"
     },
+    "audio30_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio30",
+        "group": "🎶 Áudio 30"
+    },
     "audio31_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 31"
     },
     "audio31_name": {
@@ -545,9 +768,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 31"
     },
+    "audio31_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio31",
+        "group": "🎶 Áudio 31"
+    },
     "audio32_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 32"
     },
     "audio32_name": {
@@ -561,9 +791,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 32"
     },
+    "audio32_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio32",
+        "group": "🎶 Áudio 32"
+    },
     "audio33_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 33"
     },
     "audio33_name": {
@@ -577,9 +814,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 33"
     },
+    "audio33_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio33",
+        "group": "🎶 Áudio 33"
+    },
     "audio34_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 34"
     },
     "audio34_name": {
@@ -593,9 +837,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 34"
     },
+    "audio34_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio34",
+        "group": "🎶 Áudio 34"
+    },
     "audio35_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 35"
     },
     "audio35_name": {
@@ -609,9 +860,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 35"
     },
+    "audio35_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio35",
+        "group": "🎶 Áudio 35"
+    },
     "audio36_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 36"
     },
     "audio36_name": {
@@ -625,9 +883,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 36"
     },
+    "audio36_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio36",
+        "group": "🎶 Áudio 36"
+    },
     "audio37_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 37"
     },
     "audio37_name": {
@@ -641,9 +906,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 37"
     },
+    "audio37_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio37",
+        "group": "🎶 Áudio 37"
+    },
     "audio38_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 38"
     },
     "audio38_name": {
@@ -657,9 +929,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 38"
     },
+    "audio38_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio38",
+        "group": "🎶 Áudio 38"
+    },
     "audio39_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 39"
     },
     "audio39_name": {
@@ -673,9 +952,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 39"
     },
+    "audio39_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio39",
+        "group": "🎶 Áudio 39"
+    },
     "audio40_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 40"
     },
     "audio40_name": {
@@ -689,9 +975,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 40"
     },
+    "audio40_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio40",
+        "group": "🎶 Áudio 40"
+    },
     "audio41_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 41"
     },
     "audio41_name": {
@@ -705,9 +998,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 41"
     },
+    "audio41_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio41",
+        "group": "🎶 Áudio 41"
+    },
     "audio42_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 42"
     },
     "audio42_name": {
@@ -721,9 +1021,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 42"
     },
+    "audio42_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio42",
+        "group": "🎶 Áudio 42"
+    },
     "audio43_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 43"
     },
     "audio43_name": {
@@ -737,9 +1044,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 43"
     },
+    "audio43_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio43",
+        "group": "🎶 Áudio 43"
+    },
     "audio44_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 44"
     },
     "audio44_name": {
@@ -753,9 +1067,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 44"
     },
+    "audio44_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio44",
+        "group": "🎶 Áudio 44"
+    },
     "audio45_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 45"
     },
     "audio45_name": {
@@ -769,9 +1090,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 45"
     },
+    "audio45_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio45",
+        "group": "🎶 Áudio 45"
+    },
     "audio46_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 46"
     },
     "audio46_name": {
@@ -785,9 +1113,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 46"
     },
+    "audio46_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio46",
+        "group": "🎶 Áudio 46"
+    },
     "audio47_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 47"
     },
     "audio47_name": {
@@ -801,9 +1136,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 47"
     },
+    "audio47_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio47",
+        "group": "🎶 Áudio 47"
+    },
     "audio48_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 48"
     },
     "audio48_name": {
@@ -817,9 +1159,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 48"
     },
+    "audio48_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio48",
+        "group": "🎶 Áudio 48"
+    },
     "audio49_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 49"
     },
     "audio49_name": {
@@ -833,9 +1182,16 @@
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 49"
     },
+    "audio49_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio49",
+        "group": "🎶 Áudio 49"
+    },
     "audio50_active": {
         "type": "checkbox",
         "label": "Ativar áudio",
+        "value": false,
         "group": "🎶 Áudio 50"
     },
     "audio50_name": {
@@ -848,5 +1204,17 @@
         "type": "sound-input",
         "label": "Arquivo de áudio",
         "group": "🎶 Áudio 50"
+    },
+    "audio50_test": {
+        "type": "button",
+        "label": "Testar alerta",
+        "value": "audio50",
+        "group": "🎶 Áudio 50"
+    },
+    "credits": {
+        "type": "checkbox",
+        "value": true,
+        "group": "Soundboard - por DaniFluffyCat ^^",
+        "label": "Este overlay pode ser encontrado em danifluffy.dev :)"
     }
 }
