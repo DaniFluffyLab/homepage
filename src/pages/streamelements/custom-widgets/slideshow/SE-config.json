@@ -22,5 +22,11 @@
         "type": "image-input",
         "multiple": true,
         "label": "Imagens"
+    },
+    "credits": {
+        "type": "checkbox",
+        "value": true,
+        "group": "Slideshow - por DaniFluffyCat ^^",
+        "label": "Este overlay pode ser encontrado em danifluffy.dev :)"
     }
 }
