@@ -7,7 +7,7 @@ body,
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-family: "{{googleFont}}", sans-serif;
+    font-family: "{{alert_googleFont}}", sans-serif;
 }
 
 #alert_container {

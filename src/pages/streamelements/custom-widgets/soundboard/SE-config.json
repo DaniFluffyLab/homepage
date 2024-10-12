@@ -10,7 +10,7 @@
         "value": "{username} tocou {audioname}",
         "group": "Configs. alerta"
     },
-    "googleFont": {
+    "alert_googleFont": {
         "type": "googleFont",
         "label": "Selecione a fonte:",
         "value": "Roboto",
