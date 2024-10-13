@@ -8,7 +8,7 @@
     <img style="max-height: 100px" src="./theme/logo.png" alt="Toolbox">
 </h1>
 
-**Bem-vinde ao meu toolbox!**
+## **Bem-vinde ao meu toolbox!**
 
 Neste site você encontrará alguns minicódigos, fórmulas de Google Sheets, tutoriais, ou qualquer outra coisa que eu tenha feito e ache útil o bastante para compartilhar hehe :p
 

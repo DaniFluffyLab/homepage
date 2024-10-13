@@ -6,10 +6,10 @@ Neste site você pode encontrar algumas fórmulas úteis no dia-a-dia, e abaixo 
 
 > **Índice:**
 > 
-> 1. [Funções nomeadas](#funções-nomeadas)<br>
-> 1.1. [Como instalar](#como-instalar)<br>
-> 2. [Funções no Apps Script](#funções-no-apps-script)<br>
-> 2.1 [Como instalar](#como-instalar-1)<br>
+> 1. [Funções nomeadas](#funções-nomeadas)  
+> 1.1. [Como instalar](#como-instalar)  
+> 2. [Funções no Apps Script](#funções-no-apps-script)  
+> 2.1 [Como instalar](#como-instalar-1)  
 > 3. [Links de referência](#links-de-referência)
 
 ## Funções nomeadas
@@ -26,15 +26,18 @@ Para saber mais, [leia este artigo do suporte do Google.](https://support.google
 
 1. Clique em **Dados** e em **Funções nomeadas**.
 
-![Imagem mostrando onde encontrar a opção acima descrita](./funcaonomeada-inst1.png)<br><br>
+![Imagem mostrando onde encontrar a opção acima descrita](./funcaonomeada-inst1.png)  
+
 
 2. Selecione **Adicionar nova função**.
 
-![Imagem mostrando onde encontrar a opção acima descrita](./funcaonomeada-inst2.png)<br><br>
+![Imagem mostrando onde encontrar a opção acima descrita](./funcaonomeada-inst2.png)  
+
 
 3. As funções nomeadas normalmente precisam de 3 campos: **Nome da função**, **Marcadores de posição de argumentos** e **Definição da fórmula**. 
 
-![Imagem mostrando onde encontrar a opção acima descrita](./funcaonomeada-inst3.png)<br><br>
+![Imagem mostrando onde encontrar a opção acima descrita](./funcaonomeada-inst3.png)  
+
 
 Neste site, as fórmulas também estão organizadas pelos mesmos campos, portanto basta copiar e colar.
 
@@ -65,9 +68,11 @@ Para saber mais, [leia este artigo no suporte do Google.](https://developers.goo
 
 ![Imagem mostrando onde encontrar a opção acima descrita](./funcaonomeada-inst7.png)
 
+
 2. Copie o código da função customizada, cole na última linha do documento e salve.
 
 ![Imagem mostrando onde encontrar a opção acima descrita](./funcaonomeada-inst8.png)
+
 
 ## Links de referência
 
