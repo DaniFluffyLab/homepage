@@ -1,4 +1,4 @@
-# Fonte de IFrame
+# Fonte da web
 
 ![Demonstração do widget](preview.webp)
 
