@@ -2,7 +2,7 @@
 
 <div class="warning"><b>Este widget ainda está em desenvolvimento!</b>
 
-Este código ainda não está bem documentado e não foi plenamente testado. _Use por sua conta e risco._
+Este código ainda não está documentado e está em fase de testes. _Use por sua conta e risco._
 </div>
 
 ## HTML
