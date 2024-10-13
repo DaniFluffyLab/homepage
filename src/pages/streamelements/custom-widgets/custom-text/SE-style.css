@@ -43,7 +43,7 @@ textarea {
 
     &::placeholder {
         color: var(--fontColor);
-        opacity: 1;
+        opacity: 100%!important;
     }
 
     &#main {
