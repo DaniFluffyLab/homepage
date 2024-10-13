@@ -9,7 +9,7 @@
 
 # Google Workspace
 
-- [Fórmulas](./pages/google/formulas/main.md) 
+- [Fórmulas do Google Sheets](./pages/google/formulas/main.md) 
     - [Como utilizar](./pages/google/formulas/instrucoes/main.md)
     - [CPFCHECK( )](./pages/google/formulas/cpfcheck/main.md)
     - [EXT_NOME( )](./pages/google/formulas/ext_nome/main.md)
@@ -21,9 +21,9 @@
 - [RegEx (WIP - em breve...)]()
     
 # StreamElements
-- [Widgets](./pages/se/widgets/main.md)
+- [Widgets customizados](./pages/se/widgets/main.md)
     - [Como instalar](./pages/se/widgets/instrucoes/main.md)
-    - [Caixa de texto personalizada](./pages/se/widgets/custom-text/main.md)
+    - [Texto+](./pages/se/widgets/custom-text/main.md)
     - [Fonte da web](./pages/se/widgets/iframe/main.md)
     - [Shoutout para YouTube](./pages/se/widgets/shoutout/main.md)
     - [Slideshow](./pages/se/widgets/slideshow/main.md)

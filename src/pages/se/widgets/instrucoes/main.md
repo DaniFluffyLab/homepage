@@ -1,12 +1,12 @@
 # Instalando Widgets customizados no StreamElements
 
-Caso você não conheça, [StreamElements](https://streamelements.com/) é uma ferramenta com diversas funcionalidades para livestreams, e dentre elas, [criar overlays e widgets personalizados](https://docs.streamelements.com/overlays/getting-started) que podem ou não interagir com os espectadores.
+Caso você não conheça, [StreamElements](https://streamelements.com/) é uma ferramenta com diversas funcionalidades para livestreams, como _criação de overlays_, _chatbot_, e outras interações com o público. Apesar de ter alguns modelos prontos, é possível criar [overlays, widgets e comandos personalizados](https://docs.streamelements.com/) para deixar a live mais interativa.
 
-Compartilho aqui alguns dos meus miniprojetos para que você possa usar na sua live :3
+Aqui nesse site vão ficar todos as minhas criações dentro do StreamElements. Aqui abaixo você pode ver como instalar os widgets customizados.
 
 ## Como instalar um widget
 
-1. Acesse [https://streamelements.com/dashboard/overlays](https://streamelements.com/dashboard/overlays) e crie um novo overlay, caso você ainda não tenha criado um, clicando em "New overlay"
+1. Caso você ainda não tenha criado um overlay, acesse [https://streamelements.com/dashboard/overlays](https://streamelements.com/dashboard/overlays) e clique em "New overlay"
 
 ![Imagem demonstrando o descrito no ponto acima](img1.png)<br><br>
 
@@ -21,4 +21,5 @@ Compartilho aqui alguns dos meus miniprojetos para que você possa usar na sua l
 4. Será aberta uma janela com 5 abas: **HTML**, **CSS**, **JS**, **Fields** e **Data**.
 
 ![Imagem demonstrando o descrito no ponto acima](img4.png)
+
 Neste site, o código dos widgets também está organizado pelos mesmos nomes, portanto basta copiar e colar o código nessas abas. Se alguma das abas não foi especificada na sua página, deixe ela em branco. Depois, só clicar em "Done".
