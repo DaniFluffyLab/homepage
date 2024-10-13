@@ -1,4 +1,16 @@
 {
+    "credits1": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Detalhes de como fazer a configuração podem ser encontrados no site toolbox.danifluffy.dev :)",
+        "group": "Soundboard | DaniFluffyCat ^^"
+    },
+    "credits2": {
+        "type": "text",
+        "label": "Você pode copiar o link abaixo:",
+        "value": "toolbox.danifluffy.dev",
+        "group": "Soundboard | DaniFluffyCat ^^"
+    },
     "alert_image": {
         "type": "image-input",
         "label": "Imagem do alerta",
@@ -1210,11 +1222,5 @@
         "label": "Testar alerta",
         "value": "audio50",
         "group": "🎶 Áudio 50"
-    },
-    "credits": {
-        "type": "checkbox",
-        "value": true,
-        "group": "Soundboard - por DaniFluffyCat ^^",
-        "label": "Este overlay pode ser encontrado em danifluffy.dev :)"
     }
 }

@@ -1,4 +1,17 @@
 {
+
+    "credits1": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Detalhes de como fazer a configuração podem ser encontrados no site toolbox.danifluffy.dev :)",
+        "group": "Slideshow | DaniFluffyCat ^^"
+    },
+    "credits2": {
+        "type": "text",
+        "label": "Você pode copiar o link abaixo:",
+        "value": "toolbox.danifluffy.dev",
+        "group": "Slideshow | DaniFluffyCat ^^"
+    },
     "transitionSpeed": {
         "group": "Transição",
         "type": "slider",
@@ -22,11 +35,5 @@
         "type": "image-input",
         "multiple": true,
         "label": "Imagens"
-    },
-    "credits": {
-        "type": "checkbox",
-        "value": true,
-        "group": "Slideshow - por DaniFluffyCat ^^",
-        "label": "Este overlay pode ser encontrado em danifluffy.dev :)"
     }
 }
