@@ -100,9 +100,6 @@ window.addEventListener('onEventReceived', function (obj) {
             return;
 
         case "widget-button":
-            console.log(audioCmds[obj.detail.event.value])
-            console.log(obj.detail.event.value)
-
             showAlert("DaniFluffyTesty", audioCmds[obj.detail.event.value], true)   // Executa alerta de teste
             return;
     }
@@ -118,7 +115,6 @@ function showAlert(username, audioname, isTest) {
     let audioHTML = document.querySelector(`#audio-${audioname}`)
     let usernameHTML = document.querySelector(`#username`)
     let audionameHTML = document.querySelector(`#audioname`)
-    let alert_textHTML = document.querySelector(`#alert_text`)
 
     if (!timeout.run(username, isTest)) return      // Caso timeout não expirado, ignorar
     if (audioHTML.dataset.active != "true") return  // Caso audio inativo, ignorar
@@ -126,7 +122,6 @@ function showAlert(username, audioname, isTest) {
     usernameHTML.textContent = username             // Definir nome de usuário
     audionameHTML.textContent = audioname           // Definir nome do áudio
     audioHTML.play()                                // Tocar audio    
-    SE_API.sendMessage(alert_textHTML.textContent)  // Enviar mensagem no chat
 
     alertHTML.dataset.show = true                   // Exibir overlay
     setTimeout(() =>
