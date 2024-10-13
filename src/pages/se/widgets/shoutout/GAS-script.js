@@ -7,7 +7,7 @@ function doGet(e) {
   switch (e.parameter.action) {                                                     // A depender da ação requisitada, executar
     case 'store':                                                                   // Caso seja para armazenar:
       store(decodeURI(e.parameter.username), decodeURI(e.parameter.message));           // Armazenar URL
-      return ContentService.createTextOutput(JSON.stringify({ status: 'stored' }));       // Retornar status de sucesso
+      return ContentService.createTextOutput(JSON.stringify({ status: 'stored' }));     // Retornar status de sucesso
     case 'find':                                                                    // Caso seja para encontrar:
       return ContentService.createTextOutput(find(e.parameter.username));               // Retornar URL
   }
@@ -25,12 +25,12 @@ function store(username, message) {
  * @param {string} username - Nome do usuário a executar a ação
  */
 function find(username) {
-  let url = null                                                          // Declara variável de URL
-  for (let tries = 0; tries < 10; tries++) {                            // Tenta achar o URL 10x  
-    Utilities.sleep(3000);                                                                 // Espera 3seg
-    url = PropertiesService.getScriptProperties().getProperty(username.replaceAll("@","")) // Obtém URL das propriedades
-    if (url != null) break;                                                                // Se URL encontrada, sair do loop
+  let url = null                                                                        // Declara variável de URL
+  for (let tries = 0; tries < 10; tries++) {                                            // Tenta achar o URL 10x  
+    Utilities.sleep(3000);                                                                  // Espera 3seg
+    url = PropertiesService.getScriptProperties().getProperty(username.replaceAll("@",""))  // Obtém URL das propriedades
+    if (url != null) break;                                                                 // Se URL encontrada, sair do loop
   }
-  if (url == null) return ""                                              // Se URL não encontrada, retornar vazio
-  return url                                                              // Retornar URL
+  if (url == null) return ""                                                            // Se URL não encontrada, retornar vazio
+  return url                                                                            // Retornar URL
 }

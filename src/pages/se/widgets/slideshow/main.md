@@ -36,7 +36,7 @@ Controla o tempo que vai levar na troca de cada imagem, e o tempo da transição
 
 <p align="center"><img src="./guia2.png" width="400px"></p>
 
-Aqui você irá inserir todas as imagens que serão exibidas no widget. Se você quiser inserir um video, sugiro converter para WebP com uma ferramenta como o [EzGif](https://ezgif.com)
+Aqui você irá inserir todas as imagens que serão exibidas no widget. Se você quiser inserir um video, sugiro converter para GIF com uma ferramenta como o [EzGif](https://ezgif.com)
 
 
 
