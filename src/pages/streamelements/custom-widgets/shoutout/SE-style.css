@@ -1,0 +1,45 @@
+body,
+#alert_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "{{alert_googleFont}}", sans-serif;
+}
+
+#alert_container {
+    opacity: 0%;
+    transition: 500ms ease;
+
+    &[data-show="true"] {
+        opacity: 100%;
+    }
+}
+
+#image {
+    height: 50vh;
+}
+
+#alert_text {
+    margin: 0;
+    margin-top: 3vh;
+    font-size: 14vh;
+    font-weight: 800;
+    text-align: center;
+    color: var(--text-color);
+
+    span {
+        color: var(--shoutout-text-color);
+    }
+
+    &[data-shadow="true"] {
+        filter: drop-shadow(0 0 1vh #00000050);
+    }
+}
+
+#audios {
+    display: none;
+}
