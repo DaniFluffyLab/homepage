@@ -12,14 +12,15 @@
         "group": "Fonte da Web | DaniFluffyCat ^^"
     },
     "URL": {
-        "group": "Fonte de iFrame",
+        "group": "URL",
         "type": "text",
         "label": "URL",
-        "value": "https://example.com"
+        "value": "URL"
     },
     "placeholderActive": {
-        "group": "Fonte de iFrame",
+        "group": "URL",
         "type": "checkbox",
+        "value": true,
         "label": "Exibir placeholder"
     },
     "cropTop": {
