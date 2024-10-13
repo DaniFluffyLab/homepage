@@ -26,6 +26,11 @@ Este código ainda não está bem documentado e não foi plenamente testado. _Us
 ```
 
 ## Google Apps Script
-```json
+```javascript
 {{#include GAS-script.js}}
+```
+
+## Comando
+```
+$(customapi [URL do Apps Script]?action=find&username=${1:})
 ```
