@@ -27,9 +27,9 @@ function store(username, message) {
 function find(username) {
   let url = null                                                          // Declara variável de URL
   for (let tries = 0; tries < 10; tries++) {                            // Tenta achar o URL 10x  
-    Utilities.sleep(3000);                                                  // Espera 3seg
-    url = PropertiesService.getScriptProperties().getProperty(username)     // Obtém URL das propriedades
-    if (url != null) break;                                                 // Se URL encontrada, sair do loop
+    Utilities.sleep(3000);                                                                 // Espera 3seg
+    url = PropertiesService.getScriptProperties().getProperty(username.replaceAll("@","")) // Obtém URL das propriedades
+    if (url != null) break;                                                                // Se URL encontrada, sair do loop
   }
   if (url == null) return ""                                              // Se URL não encontrada, retornar vazio
   return url                                                              // Retornar URL

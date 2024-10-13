@@ -35,7 +35,7 @@ window.addEventListener('onEventReceived', function (obj) {
     let data = obj.detail.event.data    // Armazena dados do evento
 
     // Executa uma ação baseada em um evento
-    switch (obj.detail.event.listener) {
+    switch (obj.detail.listener) {
 
         case "message":
 
@@ -54,15 +54,15 @@ window.addEventListener('onEventReceived', function (obj) {
             if (command == null || userCalled == null) return
 
             // Se há um comando do shoutout, enviar usuário para a API
-            if (command[0] == cmdAlert || command[0] == cmdSilent) storeInAPI(userCalled)
+            if (command[0] == cmdAlert || command[0] == cmdSilent) storeInAPI(userCalled[0])
 
             // Se o comando de alerta foi chamado e usuário tem permissão, mostrar alerta
-            if (command[0] == cmdAlert && userAccess - cmdPermissionLevel >= 0 ) showAlert(userCalled)
+            if (command[0] == cmdAlert && userAccess - cmdPermissionLevel >= 0 ) showAlert(userCalled[0])
 
             // Encerrar execução
             return;
 
-        case "widget-button":
+        case "event:test":
             showAlert("DaniFluffyTesty")  // Executa alerta de teste
             return;                             // Encerra execução
     }
@@ -102,8 +102,10 @@ function showAlert(username) {
     // Declaração de variáveis
     let alertHTML = document.querySelector(`#alert_container`)
     let usernameHTML = document.querySelector(`#username`)
+    let audioHTML = document.querySelector("#alert_audio")
 
     usernameHTML.textContent = username             // Definir nome de usuário
+    audioHTML.play()                                // Tocar audio do alerta
 
     alertHTML.dataset.show = true                   // Exibir overlay
     setTimeout(() =>

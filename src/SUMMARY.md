@@ -25,5 +25,6 @@
     - [Como instalar](./pages/streamelements/custom-widgets/instrucoes/main.md)
     - [Caixa de texto personalizada](./pages/streamelements/custom-widgets/custom-text/main.md)
     - [Fonte de IFrame](./pages/streamelements/custom-widgets/iframe/main.md)
+    - [Shoutout para YouTube](./pages/streamelements/custom-widgets/shoutout/main.md)
     - [Slideshow](./pages/streamelements/custom-widgets/slideshow/main.md)
     - [Soundboard](./pages/streamelements/custom-widgets/soundboard/main.md)

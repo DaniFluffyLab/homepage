@@ -14,7 +14,7 @@
     "important": {
         "type": "checkbox",
         "label": "⚠️IMPORTANTE: Este widget é composto por 3 componentes: uma API, um comando e o widget em si. Para saber como configurar, acesse o site.",
-        "value": false,
+        "value": true,
         "group": "Shoutout | DaniFluffyCat ^^"
     },
     "api_url": {
@@ -26,6 +26,11 @@
     "alert_image": {
         "type": "image-input",
         "label": "Imagem do alerta",
+        "group": "Alerta"
+    },
+    "alert_audio": {
+        "type": "sound-input",
+        "label": "Som do alerta",
         "group": "Alerta"
     },
     "alert_text": {
@@ -65,6 +70,11 @@
         "min": 5,
         "max": 30,
         "step": 1,
+        "group": "Alerta"
+    },
+    "alert_test": {
+        "type": "button",
+        "label": "Testar alerta",
         "group": "Alerta"
     },
     "cmd_silentCommand": {
