@@ -88,7 +88,7 @@ window.addEventListener('onEventReceived', function (obj) {
     if (await_start) return     // Caso esteja aguardando ligar, ignorar
 
     // Executa uma ação baseada em um evento
-    switch (obj.detail.event.listener) {
+    switch (obj.detail.listener) {
 
         case "message":
             let message = obj.detail.event.data.text                            // Armazena mensagem
@@ -99,7 +99,7 @@ window.addEventListener('onEventReceived', function (obj) {
             showAlert(nick, message)                                            // Exibir alerta
             return;
 
-        case "widget-button":
+        case "event:test":
             showAlert("DaniFluffyTesty", audioCmds[obj.detail.event.value], true)   // Executa alerta de teste
             return;
     }
