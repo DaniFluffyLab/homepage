@@ -2,6 +2,8 @@
 
 **Descrição:** Substitui os principais acentos da string para caracteres não-acentuados.
 
+{{#include ../../../../templates/cafe.md}}
+
 ## Versão para uso como função nomeada
 
 **Nome da função:**

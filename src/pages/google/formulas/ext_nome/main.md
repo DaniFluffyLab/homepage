@@ -2,6 +2,7 @@
 
 **Descrição:** Obtém o nome da pessoa, extraindo todos os caracteres anteriores ao primeiro espaço do texto.[^1]
 
+{{#include ../../../../templates/cafe.md}}
 
 ## Versão para uso como função nomeada
 

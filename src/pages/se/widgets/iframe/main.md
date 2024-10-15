@@ -6,6 +6,8 @@ Este widget adiciona um site dentro do overlay do StreamElements, desde que ele 
 
 Agradecimentos especiais para a Dabs, do [Pra Quem Gosta](https://www.youtube.com/c/PraQuemGosta), por me permitir publicar este widget que eu fiz pra uso dela ^^
 
+{{#include ../../../../templates/cafe.md}}
+
 
 
 

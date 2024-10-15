@@ -2,6 +2,8 @@
 
 **Descrição:** Obtém um link que leva diretamente à página na planilha a partir do nome da página. Fórmula útil para documentos com muitas páginas, pois pode-se utilizá-la para criar uma página de índice automatizada.
 
+{{#include ../../../../templates/cafe.md}}
+
 ## Versão para uso no Google Apps Script
 ```javascript
 /**

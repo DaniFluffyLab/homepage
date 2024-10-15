@@ -20,6 +20,8 @@ Sendo assim, eu desenvolvi uma abordagem diferente que usa os dados que um widge
 - Um comando no chatbot do StreamElements;
 - Um widget do StreamElements que precisa estar ativo no seu OBS.
 
+{{#include ../../../../templates/cafe.md}}
+
 
 
 
@@ -138,8 +140,3 @@ Aqui você vai configurar como o comando irá responder no seu chat. Destaco uma
 
 Para o comando funcionar corretamente, o overlay com este widget **precisa** estar ativo no seu OBS, _mesmo para usar o comando silencioso_.
 </div>
-
-
-
-
-

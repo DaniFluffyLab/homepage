@@ -21,6 +21,8 @@ Para isso, utilize o PROCTUDO da seguinte maneira:
 
 Lembre-se que as duas colunas referenciadas **precisam ser** do mesmo tamanho.
 
+{{#include ../../../../templates/cafe.md}}
+
 ## Versão para uso como função nomeada
 
 **Nome da função:**

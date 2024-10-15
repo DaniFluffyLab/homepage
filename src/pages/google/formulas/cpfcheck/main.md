@@ -2,6 +2,8 @@
 
 **Descrição:** Valida o CPF, calculando e verificando os dois dígitos verificadores. O método de verificação é baseado nesse artigo: [Só Matemática -Cálculo do dígito verificador do CPF](https://www.somatematica.com.br/faq/cpf.php)
 
+{{#include ../../../../templates/cafe.md}}
+
 <div class="note"><b>Nota da autora</b>
 
 Não consegui usar essa fórmula junto da _[ArrayFormula](https://support.google.com/docs/answer/3093275?hl=pt-BR)_, preciso ainda descobrir o porquê.

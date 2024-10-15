@@ -2,6 +2,8 @@
 
 **Descrição:** Obtém o sobrenome da pessoa, extraindo todos os caracteres posteriores ao primeiro espaço do texto.[^1]
 
+{{#include ../../../../templates/cafe.md}}
+
 ## Versão para uso como função nomeada
 
 **Nome da função:**
