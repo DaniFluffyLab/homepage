@@ -3,6 +3,9 @@
 ![Demonstração do widget](preview.webp)
 <sup>Arte original: [Cosmic Wolf](https://www.cosmicwolf.net/)</sup>
 
+
+
+
 <div class="warning"><b>Este código ainda está em fase de testes.</b>
 
 Sinta-se á vontade para testar, mas esteja ciente que podem conter bugs. _Use por sua conta e risco._
@@ -13,12 +16,7 @@ Sinta-se á vontade para testar, mas esteja ciente que podem conter bugs. _Use p
 
 Use um comando de destaque para chamar atenção dos espectadores para uma pessoa importante no seu chat, como um _raider_, e convidar seu chat para conhecer o canal da pessoa!
 
-Na Twitch, este comando é conhecido como _/shoutout_ ou _!s2_, e é bem mais simples de se implementar, já que envolve simplesmente criar um comando que escreve twitch.tv/usuárioMarcado. Esse método não é possível no YouTube, já que o nome que aparece no chat _não é_ seu nome de usuário. 
-
-Sendo assim, eu desenvolvi uma abordagem diferente que usa os dados que um widget tem do chat para enviar o link do usuário destacado para o chat! Entretanto, este é um código mais complexo que um widget normal, e ele se divide em 3 partes:
-- Um arquivo de script no seu Google Drive;
-- Um comando no chatbot do StreamElements;
-- Um widget do StreamElements que precisa estar ativo no seu OBS.
+Agradecimentos especiais para a [Cosmic Wolf](https://www.youtube.com/@CosmicWolf_Arts), por me permitir publicar este widget que eu fiz pra uso dela ^^  
 
 {{#include ../../../../templates/cafe.md}}
 
@@ -26,9 +24,26 @@ Sendo assim, eu desenvolvi uma abordagem diferente que usa os dados que um widge
 
 
 > **Índice:**  
+> 1. [Introdução](#introdução)
 > 1. [Instalando o script no Google Drive](#parte-1-instalando-o-script-no-google-drive)  
 > 1. [Configurando o comando no Chatbot](#parte-2-configurando-o-comando-no-chatbot)
 > 1. [Configurando o widget](#parte-3-configurando-o-widget)
+
+
+
+
+## Introdução
+
+Na Twitch, este comando é conhecido como _/shoutout_ ou _!s2_, e é bem mais simples de se implementar, já que envolve simplesmente criar um comando que escreve twitch.tv/usuárioMarcado. Esse método não é possível no YouTube, já que o nome que aparece no chat _não é_ seu nome de usuário. 
+
+Sendo assim, eu desenvolvi uma abordagem diferente que usa os dados que um widget tem do chat para enviar o link do usuário destacado para o chat! Entretanto, este é um código mais complexo que um widget normal, e ele se divide em 3 partes:
+- Um arquivo de script no seu Google Drive;
+- Um comando no chatbot do StreamElements;
+- Um widget do StreamElements que precisa estar ativo no seu OBS.
+
+
+
+
 
 
 
