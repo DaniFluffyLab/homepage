@@ -89,7 +89,7 @@ Em **Command name**, informe o nome do comando silencioso.
 Em **Response type**, copie e cole o texto abaixo, substituindo [URL do Apps Script] pelo URL que você anotou na parte anterior.
 
 ```
-$(customapi [URL do Apps Script]?action=find&username=${1:})
+${urlfetch [URL do Apps Script]?action=find&username=${1:}}
 ```
 
 Vá em **Advanced settings** > **Command aliases** e informe o nome do comando de alerta.
