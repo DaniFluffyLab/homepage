@@ -1,0 +1,117 @@
+/* Formata container de conteúdo */
+.content main {
+    max-width: unset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    /* Configura os cabeçalhos */
+   h1,
+   h2,
+   h3,
+   h4 {
+        text-align: center;
+        width: 100%;
+    }
+
+    > blockquote {
+        width: 100%;
+    }
+
+    /* Configura parágrafo como container de artes */
+    > p {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+
+        box-sizing: border-box;
+        height: 35vh;
+        margin: 18px;
+        transition: 150ms ease;
+
+        border-radius: var(--border-radius);
+        background: var(--bg);
+        position: relative;
+
+        &:hover {
+            height: calc(35vh + 24px);
+            margin: 5px;
+            filter: drop-shadow(0 0 10px var(--bg))
+        }
+
+        /* Configura imagem para ocupar todo o bloco */
+        img {
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        /* Configura a ênfase como legenda */
+        em {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            border-radius: var(--border-radius);
+
+            position: absolute;
+            padding: 12px 0px;
+            bottom: -1px;
+
+            opacity: 0%;
+            text-align: center;
+            background: var(--bg);
+            transition: 300ms ease;
+
+        }
+
+        &:hover em {
+            opacity: 80%;
+            padding: 12px;
+        }
+
+        /* Configura ícones para link do Insta e Bsky */
+        a[href*="instagram.com"],
+        a[href*="bsky.app"] {
+            display: inline-block;
+            width: 17px;
+            height: 17px;
+            padding: 2px;
+            margin: 2px;
+
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+            transition: 200ms ease;
+
+            &:hover {
+                width: 21px;
+                height: 21px;
+                padding: 0px;
+            }
+
+            &[href*="instagram.com"] {
+                background-image: url(/theme/instagram.png);
+
+                &:hover {
+                    background-image: url(/theme/instagram-hover.png);
+                }
+            }
+
+            &[href*="bsky.app"] {
+                background-image: url(/theme/bsky.png);
+
+                &:hover {
+                    background-image: url(/theme/bsky-hover.png);
+                }
+            }
+        }
+
+        /* Adapta container para mobile */        
+        @media (max-width: 600px) {
+            width: 100%;
+            height: unset;
+        }
+    }
+
+
+}

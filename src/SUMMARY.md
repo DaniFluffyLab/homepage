@@ -7,9 +7,9 @@
 # Projetos pessoais
 - [Tradutor de Língua Antiga - RPG Chrysopoeia](./pages/projects/lingua-antiga/main.md)
 
-# Google Workspace
+# Toolbox
 
-- [Fórmulas do Google Sheets](./pages/google/formulas/main.md) 
+- [Fórmulas para Google Sheets](./pages/google/formulas/main.md) 
     - [Como utilizar](./pages/google/formulas/instrucoes/main.md)
     - [CPFCHECK( )](./pages/google/formulas/cpfcheck/main.md)
     - [EXT_NOME( )](./pages/google/formulas/ext_nome/main.md)
@@ -18,10 +18,7 @@
     - [PROCTUDO( )](./pages/google/formulas/proctudo/main.md)
     - [QRCODE( )](./pages/google/formulas/qrcode/main.md)
     - [REMOVER_ACENTOS( )](./pages/google/formulas/remover_acentos/main.md)
-- [RegEx (WIP - em breve...)]()
-    
-# StreamElements
-- [Widgets customizados](./pages/se/widgets/main.md)
+- [Widgets para StreamElements](./pages/se/widgets/main.md)
     - [Como instalar](./pages/se/widgets/instrucoes/main.md)
     - [Texto+](./pages/se/widgets/custom-text/main.md)
     - [Fonte da web](./pages/se/widgets/iframe/main.md)
