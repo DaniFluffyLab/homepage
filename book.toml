@@ -10,7 +10,7 @@ src = "src"
 create-missing = false 
 
 [output.html]
-cname = "toolbox.danifluffy.dev"
+cname = "danifluffy.dev"
 no-section-label = true
 fold.enable = true
 default-theme = "navy"
