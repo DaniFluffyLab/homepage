@@ -18,7 +18,7 @@ Use um comando de destaque para chamar atenção dos espectadores para uma pesso
 
 Agradecimentos especiais para a [Cosmic Wolf](https://www.youtube.com/@CosmicWolf_Arts), por me permitir publicar este widget que eu fiz pra uso dela ^^  
 
-{{#include ../../../../_sysfiles/templates/cafe.md}}
+{{#include ../../_sysfiles/templates/cafe.md}}
 
 
 
@@ -155,3 +155,5 @@ Aqui você vai configurar como o comando irá responder no seu chat. Destaco uma
 
 Para o comando funcionar corretamente, o overlay com este widget **precisa** estar ativo no seu OBS, _mesmo para usar o comando silencioso_.
 </div>
+
+{{#include ../../_sysfiles/templates/cafe.md}}

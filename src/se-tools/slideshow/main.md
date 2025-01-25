@@ -6,7 +6,7 @@ Este widget serve para adicionar várias imagens que se alternam num tempo espec
 
 Agradecimentos especiais à Dabs, do [Pra Quem Gosta](https://www.youtube.com/c/PraQuemGosta), por me permitir publicar este widget que eu fiz pra uso dela ^^
 
-{{#include ../../../../_sysfiles/templates/cafe.md}}
+{{#include ../../_sysfiles/templates/cafe.md}}
 
 
 
@@ -66,3 +66,5 @@ Aqui você irá inserir todas as imagens que serão exibidas no widget. Se você
 ```json
 {{#include SE-config.json}}
 ```
+
+{{#include ../../_sysfiles/templates/cafe.md}}

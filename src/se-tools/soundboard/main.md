@@ -8,7 +8,7 @@ Este código ainda não está documentado e está em fase de testes. _Use por su
 Este é um widget que aciona um áudio quando um espectador chama um comando.
 Criei ele na intenção de ser um tipo de "SoundAlerts" que funciona em lives no YouTube.
 
-{{#include ../../../../_sysfiles/templates/cafe.md}}
+{{#include ../../_sysfiles/templates/cafe.md}}
 
 
 **A fazer:**
@@ -35,3 +35,5 @@ Criei ele na intenção de ser um tipo de "SoundAlerts" que funciona em lives no
 ```json
 {{#include SE-config.json}}
 ```
+
+{{#include ../../_sysfiles/templates/cafe.md}}

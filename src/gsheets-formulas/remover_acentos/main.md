@@ -2,7 +2,7 @@
 
 **Descrição:** Substitui os principais acentos da string para caracteres não-acentuados.
 
-{{#include ../../../../_sysfiles/templates/cafe.md}}
+{{#include ../../_sysfiles/templates/cafe.md}}
 
 ## Versão para uso como função nomeada
 
