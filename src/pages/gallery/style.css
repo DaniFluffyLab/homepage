@@ -1,12 +1,23 @@
 /* Formata container de conteúdo */
 .content main {
+
+    --imagemAltura: 350px;
+    --imagemAlturaHover: 20px;
+    --legendaPadding: 15px;
+    --iconeAltura: 18px;
+    --iconeAlturaHover: 4px;
+    --transicaoTempo: 200ms;
+
     max-width: unset;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 
     /* Configura os cabeçalhos */
-    h1, h2, h3, h4 {
+    h1,
+    h2,
+    h3,
+    h4 {
         text-align: center;
         width: 100%;
     }
@@ -31,10 +42,10 @@
         em {
             display: block;
             box-sizing: border-box;
-            border-radius: var(--border-radius);
+            border-radius: calc(var(--border-radius) - 1px);
 
             width: 100%;
-            padding: 12px 0px;
+            padding: var(--legendaPadding);
 
             text-align: center;
             font-style: normal;
@@ -44,20 +55,20 @@
         a[href*="instagram.com"]:empty,
         a[href*="bsky.app"]:empty {
             display: inline-block;
-            width: 17px;
-            height: 17px;
-            padding: 2px;
-            margin: 2px;
+            width: var(--iconeAltura);
+            height: var(--iconeAltura);
+            padding: calc(var(--iconeAlturaHover) / 2);
+            margin: calc(var(--iconeAlturaHover) / 2);
 
             background-size: contain;
             background-repeat: no-repeat;
             background-origin: content-box;
-            transition: 200ms ease;
+            transition: var(--transicaoTempo) ease;
 
             /* Aumentar ícones quando passar mouse */
             &:hover {
-                width: 21px;
-                height: 21px;
+                width: calc(var(--iconeAltura) + var(--iconeAlturaHover));
+                height: calc(var(--iconeAltura) + var(--iconeAlturaHover));
                 padding: 0px;
             }
 
@@ -83,54 +94,65 @@
 
     /* Configura container de imagens quando não está em tela cheia */
     >p:not(.isFullscreen) {
-        height: 35vh;
-        margin: 18px;
-        transition: 150ms ease;
+        height: var(--imagemAltura);
+        margin: calc(var(--imagemAlturaHover) / 2);
+        padding: calc(var(--imagemAlturaHover) / 2);
+        transition: var(--transicaoTempo) ease;
 
         border-radius: var(--border-radius);
         background: var(--bg);
         position: relative;
+
+        /* Aumentar container quando mouse passar por cima */
+        &:hover {
+            padding: 0px;
+        }
 
         /* Configura imagem para ocupar todo o bloco */
         img,
         video {
             max-height: 100%;
             max-width: 100%;
+            object-fit: contain;
         }
 
-        /* Aumentar quadro quando passar mouse */
-        &:hover {
-            height: calc(35vh + 24px);
-            margin: 5px;
-            filter: drop-shadow(0 0 10px var(--bg))
+        /* Cria luminosidade ao sobrepor mouse */
+        &:hover img,
+        &:hover video {
+            filter: drop-shadow(0 0 10px var(--inactive))
         }
 
         /* Configurar legenda */
         em {
             position: absolute;
-            bottom: -1px;
+            left: calc(var(--legendaPadding) / 2);
+            bottom: calc(var(--legendaPadding) / 2);
 
+            width: calc(100% - var(--legendaPadding));
             opacity: 0%;
             background: var(--bg);
-            transition: 150ms ease;
+            transition: var(--transicaoTempo) ease;
         }
 
         /* Exibir legenda somente quando mouse passar por cima */
         &:hover em {
-            opacity: 80%;
-            padding: 12px 12px;
+            opacity: 90%;
         }
 
         /* Caso seja video, inserir legenda em cima do bloco, para não tampar player */
         &:has(video) em {
-            top: -1px;
+            top: var(--legendaPadding);
             bottom: unset;
         }
 
         /* Adapta container para mobile */
         @media (max-width: 600px) {
-            width: 100%;
-            height: unset!important;
+            width: 100% !important;
+            height: unset !important;
+            
+            em {
+                display: none;
+            }
         }
     }
 
@@ -146,21 +168,19 @@
         box-sizing: border-box;
 
         margin: 0;
-        padding: 50px;
+        padding: 10px;
         background: #18091acc;
         transition: 300ms ease;
         opacity: 0%;
 
         /* Adiciona um X no canto */
-        &::before {
-            content: "×";
+        .close {
             font-size: 30px;
             cursor: pointer;
 
             position: absolute;
             top: 30px;
             right: 30px;
-
         }
 
         /* Formata as imagens e videos */
@@ -172,4 +192,9 @@
             border-radius: 0;
         }
     }
+}
+
+/* Remove setas de passar página */
+.nav-wide-wrapper {
+    display: none;
 }
