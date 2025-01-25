@@ -6,72 +6,43 @@
     justify-content: space-evenly;
 
     /* Configura os cabeçalhos */
-   h1,
-   h2,
-   h3,
-   h4 {
+    h1, h2, h3, h4 {
         text-align: center;
         width: 100%;
     }
 
-    > blockquote {
+    /* Configura os blockquotes */
+    >blockquote {
+        border-left: 0px;
+        border-radius: var(--border-radius);
+        text-align: center;
         width: 100%;
     }
 
-    /* Configura parágrafo como container de artes */
-    > p {
+    /* Configura parágrafo como container de imagens */
+    >p {
         display: flex;
-        flex-direction: column;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
-
+        flex-direction: column;
         box-sizing: border-box;
-        height: 35vh;
-        margin: 18px;
-        transition: 150ms ease;
 
-        border-radius: var(--border-radius);
-        background: var(--bg);
-        position: relative;
-
-        &:hover {
-            height: calc(35vh + 24px);
-            margin: 5px;
-            filter: drop-shadow(0 0 10px var(--bg))
-        }
-
-        /* Configura imagem para ocupar todo o bloco */
-        img {
-            max-height: 100%;
-            max-width: 100%;
-        }
-
-        /* Configura a ênfase como legenda */
+        /* Configura elementos de ênfase como legendas */
         em {
             display: block;
-            width: 100%;
             box-sizing: border-box;
             border-radius: var(--border-radius);
 
-            position: absolute;
+            width: 100%;
             padding: 12px 0px;
-            bottom: -1px;
 
-            opacity: 0%;
             text-align: center;
-            background: var(--bg);
-            transition: 300ms ease;
-
-        }
-
-        &:hover em {
-            opacity: 80%;
-            padding: 12px;
+            font-style: normal;
         }
 
         /* Configura ícones para link do Insta e Bsky */
-        a[href*="instagram.com"],
-        a[href*="bsky.app"] {
+        a[href*="instagram.com"]:empty,
+        a[href*="bsky.app"]:empty {
             display: inline-block;
             width: 17px;
             height: 17px;
@@ -83,12 +54,14 @@
             background-origin: content-box;
             transition: 200ms ease;
 
+            /* Aumentar ícones quando passar mouse */
             &:hover {
                 width: 21px;
                 height: 21px;
                 padding: 0px;
             }
 
+            /* Definir imagem para Instagram */
             &[href*="instagram.com"] {
                 background-image: url(/theme/instagram.png);
 
@@ -97,6 +70,7 @@
                 }
             }
 
+            /* Definir imagem para Bluesky */
             &[href*="bsky.app"] {
                 background-image: url(/theme/bsky.png);
 
@@ -105,13 +79,97 @@
                 }
             }
         }
+    }
 
-        /* Adapta container para mobile */        
+    /* Configura container de imagens quando não está em tela cheia */
+    >p:not(.isFullscreen) {
+        height: 35vh;
+        margin: 18px;
+        transition: 150ms ease;
+
+        border-radius: var(--border-radius);
+        background: var(--bg);
+        position: relative;
+
+        /* Configura imagem para ocupar todo o bloco */
+        img,
+        video {
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        /* Aumentar quadro quando passar mouse */
+        &:hover {
+            height: calc(35vh + 24px);
+            margin: 5px;
+            filter: drop-shadow(0 0 10px var(--bg))
+        }
+
+        /* Configurar legenda */
+        em {
+            position: absolute;
+            bottom: -1px;
+
+            opacity: 0%;
+            background: var(--bg);
+            transition: 150ms ease;
+        }
+
+        /* Exibir legenda somente quando mouse passar por cima */
+        &:hover em {
+            opacity: 80%;
+            padding: 12px 12px;
+        }
+
+        /* Caso seja video, inserir legenda em cima do bloco, para não tampar player */
+        &:has(video) em {
+            top: -1px;
+            bottom: unset;
+        }
+
+        /* Adapta container para mobile */
         @media (max-width: 600px) {
             width: 100%;
-            height: unset;
+            height: unset!important;
         }
     }
 
+    /* Configura container de imagens quando está em tela cheia */
+    >p.isFullscreen {
 
+        position: fixed;
+        inset: 0;
+        z-index: 1000;
+
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+
+        margin: 0;
+        padding: 50px;
+        background: #18091acc;
+        transition: 300ms ease;
+        opacity: 0%;
+
+        /* Adiciona um X no canto */
+        &::before {
+            content: "×";
+            font-size: 30px;
+            cursor: pointer;
+
+            position: absolute;
+            top: 30px;
+            right: 30px;
+
+        }
+
+        /* Formata as imagens e videos */
+        img,
+        video {
+            width: 100%;
+            max-height: 80vh;
+            object-fit: contain;
+            border-radius: 0;
+        }
+    }
 }

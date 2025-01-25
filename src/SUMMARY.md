@@ -6,6 +6,7 @@
 
 # Projetos pessoais
 - [Tradutor de Língua Antiga - RPG Chrysopoeia](./pages/projects/lingua-antiga/main.md)
+- [Minhas artes](./pages/gallery/main.md)
 
 # Toolbox
 
