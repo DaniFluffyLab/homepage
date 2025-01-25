@@ -2,6 +2,8 @@
 
 html {
     scrollbar-color: var(--scrollbar) var(--bg);
+    /* Fixa tamanho da barra lateral */
+    --sidebar-width: 300px!important;
 }
 #searchresults a,
 .content a:link,
