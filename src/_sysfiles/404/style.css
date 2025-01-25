@@ -1,0 +1,7 @@
+.erro-404 {
+    display: none;
+}
+
+body.no-js .erro-404 {
+    display: block;
+}
