@@ -15,4 +15,3 @@ no-section-label = true
 fold.enable = true
 default-theme = "navy"
 preferred-dark-theme = "navy"
-input-404 = "homepage.md"
