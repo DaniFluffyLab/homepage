@@ -74,19 +74,19 @@
 
             /* Definir imagem para Instagram */
             &[href*="instagram.com"] {
-                background-image: url(/theme/instagram.png);
+                background-image: url(/_sysfiles/imgs/instagram.png);
 
                 &:hover {
-                    background-image: url(/theme/instagram-hover.png);
+                    background-image: url(/_sysfiles/imgs/instagram-hover.png);
                 }
             }
 
             /* Definir imagem para Bluesky */
             &[href*="bsky.app"] {
-                background-image: url(/theme/bsky.png);
+                background-image: url(/_sysfiles/imgs/bsky.png);
 
                 &:hover {
-                    background-image: url(/theme/bsky-hover.png);
+                    background-image: url(/_sysfiles/imgs/bsky-hover.png);
                 }
             }
         }

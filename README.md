@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img height="100px" src="./src/theme/logo.png" alt="Toolbox">
+    <img height="100px" src="./src/_sysfiles/imgs/logo.png" alt="Toolbox">
 </h1>
 
 <p align="center">

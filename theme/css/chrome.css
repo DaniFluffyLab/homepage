@@ -165,23 +165,23 @@ a > .hljs {
         }
 
         a[href*="instagram.com"] {
-            background-image: url(/theme/instagram.png);
+            background-image: url(/_sysfiles/imgs/instagram.png);
             &:hover {
-                background-image: url(/theme/instagram-hover.png);
+                background-image: url(/_sysfiles/imgs/instagram-hover.png);
             }
         }
 
         a[href*="github.com"] {
-            background-image: url(/theme/github.png);
+            background-image: url(/_sysfiles/imgs/github.png);
             &:hover {
-                background-image: url(/theme/github-hover.png);
+                background-image: url(/_sysfiles/imgs/github-hover.png);
             }
         }
 
         a[href*="bsky.app"] {
-            background-image: url(/theme/bsky.png);
+            background-image: url(/_sysfiles/imgs/bsky.png);
             &:hover {
-                background-image: url(/theme/bsky-hover.png);
+                background-image: url(/_sysfiles/imgs/bsky-hover.png);
             }
         }
     }

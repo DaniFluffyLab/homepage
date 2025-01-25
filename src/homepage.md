@@ -5,7 +5,7 @@
 </style>
 
 <h1 style="text-align: center">
-    <img style="max-height: 100px" src="./theme/logo.png" alt="Toolbox">
+    <img style="max-height: 100px" src="./_sysfiles/imgs/logo.png" alt="Toolbox">
 </h1>
 
 ## **Bem-vinde ao meu toolbox!**
@@ -20,7 +20,7 @@ Dúvidas? Comentários? Fale comigo por [toolbox@danifluffy.dev](mailto:toolbox@
 
 ## Sobre a autora
 
-<img class="left" style="width:90px; margin-right: 15px" src="./theme/icon.jpg">
+<img class="left" style="width:90px; margin-right: 15px" src="./_sysfiles/imgs/icon.jpg">
 
 **Oi, eu sou a Dani! ^^**
 
