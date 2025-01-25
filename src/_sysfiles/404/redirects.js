@@ -10,7 +10,19 @@ if (!/main\.html$/.test(url)) {
     window.location.replace(replaceUrl)                                 // Redireciona
 }
 
-// REGRA - Se a página era hospedada em danifluffy.dev/pages
+// REGRA - Se página do antigo projeto de fórmulas do Google Sheets
+if (/\/pages\/google\/formulas\//.test(url)) {
+    let replaceUrl = url.replace("/pages/google/formulas/", "/gsheets-formulas/")   // Atualiza referência
+    window.location.replace(replaceUrl)                                             // Redireciona
+}
+
+// REGRA - Se página do antigo projeto de widgets do StreamElements
+if (/\/pages\/se\/widgets\//.test(url)) {
+    let replaceUrl = url.replace("/pages/google/formulas/", "/se-tools/")   // Atualiza referência
+    window.location.replace(replaceUrl)                                     // Redireciona
+}
+
+// REGRA - Se a página era hospedada anteriormente em danifluffy.dev/pages
 if (/danifluffy\.dev\/pages\//.test(url)) {
     let replaceUrl = url.replace("danifluffy.dev/pages/", "danifluffy.dev/")    // Remove referência
     window.location.replace(replaceUrl)                                         // Redireciona

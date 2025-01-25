@@ -1,21 +1,22 @@
-# =EXT_NOME(nome_completo)
+# =EXT_SOBRENOME(nome_completo)
 
-**Descrição:** Obtém o nome da pessoa, extraindo todos os caracteres anteriores ao primeiro espaço do texto.[^1]
+**Descrição:** Obtém o sobrenome da pessoa, extraindo todos os caracteres posteriores ao primeiro espaço do texto.[^1]
 
-{{#include ../../../../templates/cafe.md}}
+{{#include ../../../../_sysfiles/templates/cafe.md}}
 
 ## Versão para uso como função nomeada
 
 **Nome da função:**
 ```
-EXT_NOME
+EXT_SOBRENOME
 ```
-**Marcadores de posição de argumentos:**
+**Marcadores de posição de argumentos::**
 ```
 nome_completo
 ```
+
 **Definição da fórmula:**
 ```
-=EXT.TEXTO(nome_completo;1;LOCALIZAR(" ";nome_completo;1))
+=EXT.TEXTO(nome_completo;LOCALIZAR(" ";nome_completo;1)+1;NÚM.CARACT(nome_completo))
 ```
 [^1]: Encontrei essa fórmula no site do [Prof. Alexandre Alcantara](https://alcantara.pro.br/portal/2021/04/17/dica-excel-como-separar-nome-do-sobrenome-no-excel/) e adaptei para funcionar como função customizada no Google Sheets.

@@ -1,4 +1,4 @@
-# Widgets customizados para Streamelements
+# Ferramentas para Streamelements
 
 Caso você não conheça, [StreamElements](https://streamelements.com/) é uma ferramenta com diversas funcionalidades para livestreams, e dentre elas, [criar overlays e widgets personalizados](https://docs.streamelements.com/overlays/getting-started) que podem ou não interagir com os espectadores.
 

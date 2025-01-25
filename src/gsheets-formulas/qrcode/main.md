@@ -2,7 +2,7 @@
 
 **Descrição:** Insere um QRCode do link informado na célula. Baseado nesta API: [https://goqr.me/api/](https://goqr.me/api/)
 
-{{#include ../../../../templates/cafe.md}}
+{{#include ../../../../_sysfiles/templates/cafe.md}}
 
 ## Versão para uso como função nomeada
 

@@ -18,7 +18,7 @@ Use um comando de destaque para chamar atenção dos espectadores para uma pesso
 
 Agradecimentos especiais para a [Cosmic Wolf](https://www.youtube.com/@CosmicWolf_Arts), por me permitir publicar este widget que eu fiz pra uso dela ^^  
 
-{{#include ../../../../templates/cafe.md}}
+{{#include ../../../../_sysfiles/templates/cafe.md}}
 
 
 

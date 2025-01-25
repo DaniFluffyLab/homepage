@@ -2,7 +2,7 @@
 
 **Descrição:** Valida o CPF, calculando e verificando os dois dígitos verificadores. O método de verificação é baseado nesse artigo: [Só Matemática -Cálculo do dígito verificador do CPF](https://www.somatematica.com.br/faq/cpf.php)
 
-{{#include ../../../../templates/cafe.md}}
+{{#include ../../../../_sysfiles/templates/cafe.md}}
 
 <div class="note"><b>Nota da autora</b>
 

@@ -5,7 +5,7 @@
 Este widget serve para criar uma caixa de texto customizada, com mais funções de personalização que a nativa do StreamElements, como possibilidade de adicionar fontes customizadas e contorno nas letras.  
 Agradecimentos especiais para a Dabs, do [Pra Quem Gosta](https://www.youtube.com/c/PraQuemGosta), por me permitir publicar este widget que eu fiz pra uso dela ^^  
 
-{{#include ../../../../templates/cafe.md}}
+{{#include ../../../../_sysfiles/templates/cafe.md}}
 
 
 
@@ -91,4 +91,4 @@ Aqui você configura se seu texto terá algum contorno em volta, e a cor. Não r
 {{#include SE-config.json}}
 ```
 
-{{#include ../../../../templates/cafe.md}}
+{{#include ../../../../_sysfiles/templates/cafe.md}}
