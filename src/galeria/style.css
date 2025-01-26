@@ -116,6 +116,11 @@
             object-fit: contain;
         }
 
+        /* Impede videos de reproduzirem quando fora de tela cheia */
+        video {
+            pointer-events: none;
+        }
+
         /* Cria luminosidade ao sobrepor mouse */
         &:hover img,
         &:hover video {
@@ -137,12 +142,6 @@
         /* Exibir legenda somente quando mouse passar por cima */
         &:hover em {
             opacity: 90%;
-        }
-
-        /* Caso seja video, inserir legenda em cima do bloco, para não tampar player */
-        &:has(video) em {
-            top: var(--legendaPadding);
-            bottom: unset;
         }
 
         /* Adapta container para mobile */
