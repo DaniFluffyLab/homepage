@@ -39,6 +39,13 @@ window.addEventListener("load", () => {                             // Assim que
         let image = p.querySelector("img")                                              // Encontra imagem no container
         if (image != null) p.style.width = `${image.width + IMAGEM_ALTURA_HOVER}px`     // Define largura fixa do container
 
+        let video = p.querySelector("video")                        // Encontra videos no container
+        if (video != null) {                                        // Caso haja videos:
+            let aspectRatio = video.videoWidth / video.videoHeight      // Calcula a razão do aspecto do video
+            let intWidth = parseInt(IMAGEM_ALTURA * aspectRatio)        // Calcula a largura ideal
+            p.style.width = `${intWidth}px`                             // Define largura fixa do container
+        } 
+
         p.addEventListener("click", () => fullscreen(p))    // Cria evento para colocar imgs em tela cheia
     })
 })
