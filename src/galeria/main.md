@@ -8,9 +8,15 @@
 
 ## Artes de 2025
 
+![](2025/2.png)
+*Artezinha de Biel, OC da [Nebu](https://www.instagram.com/am_nebu04) pro Desafio semanal do [Artistas Cuiabá](https://www.instagram.com/artistascuiaba/) ˆˆ  
+[](https://www.instagram.com/p/DF1KxtUR7ah/)
+[](https://bsky.app/profile/danifluffy.dev/post/3lhpc3yghmc2v)*
+
 ![](2025/1.jpeg)
 *Kasane Teto curtindo um som de boas :)  
-[](https://bsky.app/profile/danifluffy.dev/post/3lfnaeb7fdk2q)*
+[](https://bsky.app/profile/danifluffy.dev/post/3lfnaeb7fdk2q)
+*
 
 
 
