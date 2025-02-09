@@ -15,8 +15,7 @@
 
 ![](2025/1.jpeg)
 *Kasane Teto curtindo um som de boas :)  
-[](https://bsky.app/profile/danifluffy.dev/post/3lfnaeb7fdk2q)
-*
+[](https://bsky.app/profile/danifluffy.dev/post/3lfnaeb7fdk2q)*
 
 
 
