@@ -22,7 +22,8 @@
 ## Artes de 2024
 
 ![](2024/12.png)
-*Íris Hermona, arqueóloga, historiadora, e minha personagem no [RPG Chrysopoeia](https://www.youtube.com/playlist?list=PLnbFq63ncllDlOGyZTvnm1FbgRFc8HEuR) ^^*
+*Íris Hermona, arqueóloga, historiadora, e minha personagem no [RPG Chrysopoeia](https://www.youtube.com/playlist?list=PLnbFq63ncllDlOGyZTvnm1FbgRFc8HEuR) ^^  
+[](https://www.instagram.com/danifluffycat/p/C_EyKcyRRX5)*
 
 ![](2024/11.png)
 *Neo Politan, de RWBY - pro Desafio de 30min do [Artistas Cuiabá](https://www.instagram.com/artistascuiaba/) :3*
