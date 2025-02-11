@@ -1,14 +1,8 @@
 # =CPFCHECK(cpf)
 
-**Descrição:** Valida o CPF, calculando e verificando os dois dígitos verificadores. O método de verificação é baseado nesse artigo: [Só Matemática -Cálculo do dígito verificador do CPF](https://www.somatematica.com.br/faq/cpf.php)
+**Descrição:** Valida o CPF, calculando e verificando os dois dígitos verificadores. O método de verificação é baseado nesse artigo: [Só Matemática -Cálculo do dígito verificador do CPF](https://www.somatematica.com.br/faq/cpf.php). Utilize apenas números para verificar o CPF.
 
 {{#include ../../_sysfiles/templates/cafe.md}}
-
-<div class="note"><b>Nota da autora</b>
-
-Não consegui usar essa fórmula junto da _[ArrayFormula](https://support.google.com/docs/answer/3093275?hl=pt-BR)_, preciso ainda descobrir o porquê.
-Para usar em _ArrayFormula_, utilize a [versão de Apps Script](#versão-para-uso-no-google-apps-script). 
-</div>
 
 ## Versão para uso como função nomeada
 
@@ -22,53 +16,57 @@ cpf
 ```
 
 **Definição da fórmula:**
-```
-=SE(
-    ÉNÚM(VALOR(TEXTO(cpf;"00000000000")));SE(
-        NÚM.CARACT(TEXTO(cpf;"00000000000"))=11;SE(
-            OU(
-                TEXTO(cpf;"00000000000")="00000000000";
-                TEXTO(cpf;"00000000000")="11111111111";
-                TEXTO(cpf;"00000000000")="22222222222";
-                TEXTO(cpf;"00000000000")="33333333333";
-                TEXTO(cpf;"00000000000")="44444444444";
-                TEXTO(cpf;"00000000000")="55555555555";
-                TEXTO(cpf;"00000000000")="66666666666";
-                TEXTO(cpf;"00000000000")="77777777777";
-                TEXTO(cpf;"00000000000")="88888888888";
-                TEXTO(cpf;"00000000000")="99999999999"
-            )=FALSO;SE(
-                DIREITA(
-                    MOD((SOMA(
-                        (EXT.TEXTO(TEXTO(cpf;"00000000000");1;1)*10);
-                        (EXT.TEXTO(TEXTO(cpf;"00000000000");2;1)*9);
-                        (EXT.TEXTO(TEXTO(cpf;"00000000000");3;1)*8);
-                        (EXT.TEXTO(TEXTO(cpf;"00000000000");4;1)*7);
-                        (EXT.TEXTO(TEXTO(cpf;"00000000000");5;1)*6);
-                        (EXT.TEXTO(TEXTO(cpf;"00000000000");6;1)*5);
-                        (EXT.TEXTO(TEXTO(cpf;"00000000000");7;1)*4);
-                        (EXT.TEXTO(TEXTO(cpf;"00000000000");8;1)*3);
-                        (EXT.TEXTO(TEXTO(cpf;"00000000000");9;1)*2);;
-                    )*10);11);1)=(EXT.TEXTO(TEXTO(cpf;"00000000000");10;1));SE(
-                    DIREITA(
-                        MOD((SOMA(
-                            (EXT.TEXTO(TEXTO(cpf;"00000000000");1;1)*11);
-                            (EXT.TEXTO(TEXTO(cpf;"00000000000");2;1)*10);
-                            (EXT.TEXTO(TEXTO(cpf;"00000000000");3;1)*9);
-                            (EXT.TEXTO(TEXTO(cpf;"00000000000");4;1)*8);
-                            (EXT.TEXTO(TEXTO(cpf;"00000000000");5;1)*7);
-                            (EXT.TEXTO(TEXTO(cpf;"00000000000");6;1)*6);
-                            (EXT.TEXTO(TEXTO(cpf;"00000000000");7;1)*5);
-                            (EXT.TEXTO(TEXTO(cpf;"00000000000");8;1)*4);
-                            (EXT.TEXTO(TEXTO(cpf;"00000000000");9;1)*3);
-                            (EXT.TEXTO(TEXTO(cpf;"00000000000");10;1)*2);
-                        )*10);11);1)=(EXT.TEXTO(TEXTO(cpf;"00000000000");11;1));
-                        VERDADEIRO;
-                    FALSO);
-                FALSO);
-            FALSO);
-        FALSO);
-    FALSO
+```shell
+=BYROW(TEXT(cpf;"00000000000");
+    LAMBDA(λ;
+        IF(
+            ISNUMBER(VALUE(λ));IF(
+                LEN(λ)=11;IF(
+                    OR(
+                        λ="00000000000";
+                        λ="11111111111";
+                        λ="22222222222";
+                        λ="33333333333";
+                        λ="44444444444";
+                        λ="55555555555";
+                        λ="66666666666";
+                        λ="77777777777";
+                        λ="88888888888";
+                        λ="99999999999"
+                    )=FALSE;IF(
+                        RIGHT(
+                            MOD((SUM(
+                                (MID(λ;1;1)*10);
+                                (MID(λ;2;1)*9);
+                                (MID(λ;3;1)*8);
+                                (MID(λ;4;1)*7);
+                                (MID(λ;5;1)*6);
+                                (MID(λ;6;1)*5);
+                                (MID(λ;7;1)*4);
+                                (MID(λ;8;1)*3);
+                                (MID(λ;9;1)*2);;
+                            )*10);11);1)=(MID(λ;10;1));IF(
+                            RIGHT(
+                                MOD((SUM(
+                                    (MID(λ;1;1)*11);
+                                    (MID(λ;2;1)*10);
+                                    (MID(λ;3;1)*9);
+                                    (MID(λ;4;1)*8);
+                                    (MID(λ;5;1)*7);
+                                    (MID(λ;6;1)*6);
+                                    (MID(λ;7;1)*5);
+                                    (MID(λ;8;1)*4);
+                                    (MID(λ;9;1)*3);
+                                    (MID(λ;10;1)*2);
+                                )*10);11);1)=(MID(λ;11;1));
+                                TRUE;
+                            FALSE);
+                        FALSE);
+                    FALSE);
+                FALSE);
+            FALSE
+        )
+    )
 )
 ```
 
