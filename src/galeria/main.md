@@ -8,6 +8,11 @@
 
 ## Artes de 2025
 
+![](2025/3.png)
+*["become slave of all this numbers... it's overdue, all the stress, yet I say 'im fine'."](https://youtu.be/IyMJ4FhYiEw)  
+[](https://bsky.app/profile/danifluffy.dev/post/3lioutg6oe225)
+[](https://www.instagram.com/p/DGVfK-sRnDF/?igsh=bm5wY3oyNXptbWNl)*
+
 ![](2025/2.png)
 *Artezinha de Biel, OC da [Nebu](https://www.instagram.com/am_nebu04) pro Desafio semanal do [Artistas Cuiabá](https://www.instagram.com/artistascuiaba/) ˆˆ  
 [](https://www.instagram.com/p/DF1KxtUR7ah/)
