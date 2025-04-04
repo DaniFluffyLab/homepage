@@ -8,6 +8,10 @@
 
 ## Artes de 2025
 
+![](2025/4.png)
+*<b>Valerie Berger</b>, exímia Auxiliar da cidade de Erien, que está apoiando Iris e sua party na campanha de [Chrysopoeia](https://www.youtube.com/playlist?list=PLnbFq63ncllDlOGyZTvnm1FbgRFc8HEuR) ^^  
+[](https://www.instagram.com/danifluffycat/p/C_EyKcyRRX5)*
+
 ![](2025/3.png)
 *["become slave of all this numbers... it's overdue, all the stress, yet I say 'im fine'."](https://youtu.be/IyMJ4FhYiEw)  
 [](https://bsky.app/profile/danifluffy.dev/post/3lioutg6oe225)
